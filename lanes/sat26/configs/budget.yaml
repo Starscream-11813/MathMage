@@ -1,0 +1,37 @@
+# Budget ledger configuration (US dollars). Decided with the user on 2026-10-18:
+# a hard cap of about $75 for every paid OpenRouter call in this project.
+global_cap_usd: 151.0   # raised 2026-10-24 (user-approved): $75 original + $88.14 top-up, ~$4 account headroom kept
+
+# Per-experiment lines. A run aborts before any call that would push its experiment
+# past its line (by the conservative pre-call estimate) or the project past the cap.
+experiments:
+  smoke: 0.50        # connectivity and parameter checks
+  pilot: 1.00        # runtime/resource pilots; completed responses reused in calibration
+  offline: 14.00     # both rosters: 16 train / 10 dev, four-action bounded policy
+  e1_sat: 22.00      # complete five-benchmark panel; up to three resource-gated seeds
+  e2_xolver: 20.00   # complete AIME24/25 eight-seed panel; MATH-100 once
+  e4_ablations: 10.00 # prioritized contrasts first, remaining controls resource-gated
+  e5_zpd: 3.00       # Z6/Z3 on ten development families held out from tuning
+  reserve: 4.50      # maintained inside unchanged $75 global cap
+  v4_sat: 22.00      # v4 follow-up (pre-registered 2026-10-19): SAT-roster baselines + post-cutoff contests
+  v4_open: 6.00      # v4 follow-up: open-roster baselines + post-cutoff contests
+  v5_sat: 15.00      # v5 follow-up (user-approved 2026-10-20, $75 cap kept): SAT-roster baseline matrix + MoA
+  v5_open: 4.00      # v5 follow-up: open-roster baseline matrix + MoA
+  # v6 wave (user-approved 2026-10-24: fresh post-cutoff test + mechanism layer; planned ~$73, lines sum $83)
+  v6_pilot: 1.50      # endpoint drift check and smoke units
+  v6_dev: 1.50        # MathMage-R maximal runs on the ten development families (knee-rule price)
+  v6_fresh_sat: 31.00 # fresh post-cutoff contests, SAT roster: stage 0, both MathMage variants, all baselines
+  v6_fresh_open: 12.00 # fresh post-cutoff contests, open roster, eight seeds
+  v6_mech_open: 11.00 # mechanism layer on recorded open-roster states (bank, sweep, crossed hint trial)
+  v6_mech_sat: 23.00  # mechanism layer on recorded informative SAT-roster states
+  v6_dense_open: 3.00 # dense ZPD sub-study, open roster (budget-gated, last)
+  # v7 parity follow-up (user-approved 2026-10-25: program-augmented USC, MoA and debate on both fresh sets;
+  # about $6 planned, lines sum $10.50)
+  v7_parity_sat: 7.00   # sat26 team, 187 fresh problems, one seed
+  v7_parity_open: 3.50  # open roster, 187 fresh problems x 8 seeds
+
+# Stop rule from the blueprint: stop an experiment that exceeds its line by 20% and re-plan.
+overrun_tolerance: 0.20
+
+# Pre-call estimate = tokens_in * price_in + min(max_tokens, safety * expected_out) * price_out
+estimate_safety_factor: 2.5

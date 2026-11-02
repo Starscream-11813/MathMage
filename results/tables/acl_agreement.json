@@ -1,0 +1,130 @@
+{
+ "E1": {
+  "unanimous": {
+   "units": 93,
+   "member_correct": 243,
+   "member_n": 279,
+   "program_answered": 76,
+   "program_correct": 60,
+   "share": 0.3924050632911392,
+   "member_acc": 0.8709677419354839,
+   "program_acc": 0.7894736842105263
+  },
+  "2-1 split": {
+   "units": 71,
+   "member_correct": 102,
+   "member_n": 213,
+   "program_answered": 49,
+   "program_correct": 31,
+   "share": 0.29957805907172996,
+   "member_acc": 0.4788732394366197,
+   "program_acc": 0.6326530612244898
+  },
+  "all differ": {
+   "units": 73,
+   "member_correct": 28,
+   "member_n": 219,
+   "program_answered": 35,
+   "program_correct": 17,
+   "share": 0.3080168776371308,
+   "member_acc": 0.1278538812785388,
+   "program_acc": 0.4857142857142857
+  }
+ },
+ "E2": {
+  "unanimous": {
+   "units": 305,
+   "member_correct": 867,
+   "member_n": 915,
+   "program_answered": 239,
+   "program_correct": 228,
+   "share": 0.5258620689655172,
+   "member_acc": 0.9475409836065574,
+   "program_acc": 0.9539748953974896
+  },
+  "2-1 split": {
+   "units": 132,
+   "member_correct": 174,
+   "member_n": 396,
+   "program_answered": 90,
+   "program_correct": 69,
+   "share": 0.22758620689655173,
+   "member_acc": 0.4393939393939394,
+   "program_acc": 0.7666666666666667
+  },
+  "all differ": {
+   "units": 143,
+   "member_correct": 48,
+   "member_n": 429,
+   "program_answered": 71,
+   "program_correct": 52,
+   "share": 0.24655172413793103,
+   "member_acc": 0.11188811188811189,
+   "program_acc": 0.7323943661971831
+  }
+ },
+ "sat216": {
+  "unanimous": {
+   "units": 51,
+   "member_correct": 139,
+   "member_n": 153,
+   "program_answered": 33,
+   "program_correct": 23,
+   "share": 0.2361111111111111,
+   "member_acc": 0.9084967320261438,
+   "program_acc": 0.696969696969697
+  },
+  "all differ": {
+   "units": 108,
+   "member_correct": 36,
+   "member_n": 324,
+   "program_answered": 54,
+   "program_correct": 30,
+   "share": 0.5,
+   "member_acc": 0.1111111111111111,
+   "program_acc": 0.5555555555555556
+  },
+  "2-1 split": {
+   "units": 57,
+   "member_correct": 81,
+   "member_n": 171,
+   "program_answered": 30,
+   "program_correct": 17,
+   "share": 0.2638888888888889,
+   "member_acc": 0.47368421052631576,
+   "program_acc": 0.5666666666666667
+  }
+ },
+ "open1968": {
+  "unanimous": {
+   "units": 825,
+   "member_correct": 2199,
+   "member_n": 2475,
+   "program_answered": 602,
+   "program_correct": 500,
+   "share": 0.4192073170731707,
+   "member_acc": 0.8884848484848484,
+   "program_acc": 0.8305647840531561
+  },
+  "all differ": {
+   "units": 663,
+   "member_correct": 204,
+   "member_n": 1989,
+   "program_answered": 327,
+   "program_correct": 239,
+   "share": 0.33689024390243905,
+   "member_acc": 0.10256410256410256,
+   "program_acc": 0.7308868501529052
+  },
+  "2-1 split": {
+   "units": 480,
+   "member_correct": 617,
+   "member_n": 1440,
+   "program_answered": 312,
+   "program_correct": 232,
+   "share": 0.24390243902439024,
+   "member_acc": 0.4284722222222222,
+   "program_acc": 0.7435897435897436
+  }
+ }
+}

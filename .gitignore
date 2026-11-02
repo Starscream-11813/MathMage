@@ -1,0 +1,51 @@
+# Credentials and machine-specific settings
+/api/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Generated data and experiment state (the curated registries are versioned)
+/data/raw/
+/data/cache/
+/runs/
+/logs/
+/outputs/
+/cache/
+/tmp/
+/results/figures/
+/assets/fonts/latinmodern-ttf/
+
+# Python and build products
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg
+.ipynb_checkpoints/
+
+# Local editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Generated figure-export intermediates
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls

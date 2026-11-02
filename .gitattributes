@@ -1,0 +1,5 @@
+# Store every file byte for byte. The study's recorded plans and manifests hash the frozen sources
+# (results/provenance.json), so line endings must never be rewritten on commit or checkout.
+* -text
+*.parquet binary
+*.png binary

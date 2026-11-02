@@ -1,0 +1,54 @@
+{
+  "purpose": "v4 follow-up: post-cutoff contests; the frozen v3 registry and vault are unchanged",
+  "sources": {
+    "hmmt_nov_2025": {
+      "repo": "MathArena/hmmt_nov_2025",
+      "file_sha256": "87ef3faaae0367b51bfa966d948106a507f39058a197e311f74fa5a65c8fe552",
+      "competition_month": "2025-11",
+      "items": 30
+    },
+    "brumo_2025": {
+      "repo": "MathArena/brumo_2025",
+      "file_sha256": "ef510deea34c5b6d165c06d020acede1c1031eb91d90336cb4d615d9e55ba391",
+      "competition_month": "2025-04",
+      "items": 30
+    },
+    "cmimc_2025": {
+      "repo": "MathArena/cmimc_2025",
+      "file_sha256": "36b33008bef3a52aad73a6c78bdfb7def581cd52fc55592ccbc74670970c1f06",
+      "competition_month": "2025-04",
+      "items": 40
+    },
+    "smt_2025": {
+      "repo": "MathArena/smt_2025",
+      "file_sha256": "0818b4eeadefda3fc1f2866dc04a13840c7b359d3f40e5bbcaa4805828be87b0",
+      "competition_month": "2025-04",
+      "items": 53
+    }
+  },
+  "near_duplicate_threshold": 0.85,
+  "near_duplicates": [],
+  "excluded_as_training_or_dev_duplicates": [],
+  "items": 153,
+  "items_sha256": "2399d4c95d035253b0854ebac44e599438ad099e6a0f6eeb876cf2e3093b30e6",
+  "answers_sha256": "0ea907d3cf44592c2fc46bb9764f0e14bc6c76c5270760bb724761478e143f08",
+  "base_registry_sha256": "cbd58f857808817667283722c3d5fcfc456f3efdcef3eeb914bf549d186921a2",
+  "base_vault_sha256": "7304123e39a7194ca74d5ea9a75c7491474d2dca181bc98a4960cc87bcdca36a",
+  "training_cutoffs": {
+    "o3-mini-low": "2023-10",
+    "deepseek-v3": "2024-07",
+    "haiku-4.5": "2025-07 (training data)",
+    "gpt-oss-120b-low": "2024-06"
+  },
+  "strict_post_cutoff": {
+    "sat": [
+      "hmmt_nov_2025"
+    ],
+    "open": [
+      "brumo_2025",
+      "cmimc_2025",
+      "hmmt_nov_2025",
+      "smt_2025"
+    ]
+  }
+}

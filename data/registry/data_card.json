@@ -1,0 +1,59 @@
+{
+ "n_items": 797,
+ "by_benchmark": {
+  "aime_2023": 30,
+  "aime_2024": 30,
+  "aime_2025": 30,
+  "aime_2026": 30,
+  "hmmt_feb_2025": 30,
+  "hmmt_feb_2026": 33,
+  "tqa_phys": 114,
+  "math500": 500
+ },
+ "by_split": {
+  "aime_2023:dev": 10,
+  "aime_2023:train": 20,
+  "aime_2024:test": 30,
+  "aime_2025:test": 30,
+  "aime_2026:test": 30,
+  "hmmt_feb_2025:dev": 10,
+  "hmmt_feb_2025:train": 20,
+  "hmmt_feb_2026:test": 33,
+  "tqa_phys:test": 114,
+  "math500:test": 500
+ },
+ "near_duplicate_pairs": [
+  {
+   "a": "tqa_phys/wenhuchen/optics4",
+   "b": "tqa_phys/wenhuchen/optics6",
+   "cos": 0.9794
+  },
+  {
+   "a": "tqa_phys/tonyxia/nuclear5",
+   "b": "tqa_phys/tonyxia/nuclear4",
+   "cos": 0.9943
+  }
+ ],
+ "excluded_training_items": [],
+ "subset_sizes": {
+  "math500_100": 100,
+  "ablation_45": 45,
+  "sat_suite": 237,
+  "xolver_aime": 60,
+  "train": 40,
+  "dev": 20,
+  "pilot_20": 20
+ },
+ "errata": {
+  "aime_2026/10": {
+   "wrong": "so that ${}\\overline{AC}$ is perpendicular $\\overline{BC},$",
+   "official": "so that $\\overline{A'C'}$ is perpendicular to $\\overline{BC},$",
+   "note": "MathArena's transcription drops the primes; the official AIME 2026 I Problem 10 rotates the triangle so that the image side A'C' is perpendicular to BC (official answer 156). With the garbled text MathArena also accepted 165; with the official text only 156 is correct."
+  }
+ },
+ "notes": [
+  "TheoremQA-physics: 114 text-only items of 131; 17 picture items excluded (DeepSeek-V3 is text-only).",
+  "AIME ids 01-15 are AIME I and 16-30 are AIME II.",
+  "Training pool: AIME 2023 and HMMT February 2025, split by family into train and dev."
+ ]
+}

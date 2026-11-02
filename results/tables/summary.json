@@ -1,0 +1,3313 @@
+{
+ "e1": {
+  "mu_star": 3.5827832703342866,
+  "complete": true,
+  "table": {
+   "o3-mini (low)": {
+    "macro": 0.46200956937799037,
+    "low": 0.39094417862838915,
+    "high": 0.5292296704732049,
+    "cost": 0.008568749367088608,
+    "by_benchmark": {
+     "aime_2024": 0.5666666666666667,
+     "aime_2025": 0.36666666666666664,
+     "aime_2026": 0.43333333333333335,
+     "hmmt_feb_2026": 0.30303030303030304,
+     "tqa_phys": 0.6403508771929824
+    },
+    "n": 237
+   },
+   "Claude Haiku 4.5": {
+    "macro": 0.41103668261563,
+    "low": 0.3388937752563782,
+    "high": 0.4804080182354517,
+    "cost": 0.006478603375527427,
+    "by_benchmark": {
+     "aime_2024": 0.4,
+     "aime_2025": 0.43333333333333335,
+     "aime_2026": 0.3,
+     "hmmt_feb_2026": 0.2727272727272727,
+     "tqa_phys": 0.6491228070175439
+    },
+    "n": 237
+   },
+   "DeepSeek-V3": {
+    "macro": 0.47665071770334927,
+    "low": 0.40565575004705434,
+    "high": 0.5479450566026892,
+    "cost": 0.0025164524088607592,
+    "by_benchmark": {
+     "aime_2024": 0.6,
+     "aime_2025": 0.43333333333333335,
+     "aime_2026": 0.36666666666666664,
+     "hmmt_feb_2026": 0.2727272727272727,
+     "tqa_phys": 0.7105263157894737
+    },
+    "n": 237
+   },
+   "program": {
+    "macro": 0.40446570972886764,
+    "low": 0.3341908328132584,
+    "high": 0.4765364547732968,
+    "cost": 0.0009014315392405063,
+    "by_benchmark": {
+     "aime_2024": 0.36666666666666664,
+     "aime_2025": 0.43333333333333335,
+     "aime_2026": 0.36666666666666664,
+     "hmmt_feb_2026": 0.30303030303030304,
+     "tqa_phys": 0.5526315789473685
+    },
+    "n": 237
+   },
+   "vote": {
+    "macro": 0.5276236044657098,
+    "low": 0.45283784064905347,
+    "high": 0.5961805196821498,
+    "cost": 0.017563805151476795,
+    "by_benchmark": {
+     "aime_2024": 0.6666666666666666,
+     "aime_2025": 0.4666666666666667,
+     "aime_2026": 0.5,
+     "hmmt_feb_2026": 0.30303030303030304,
+     "tqa_phys": 0.7017543859649122
+    },
+    "n": 237
+   },
+   "posterior": {
+    "macro": 0.6014354066985645,
+    "low": 0.5246461392509487,
+    "high": 0.6703695360686511,
+    "cost": 0.019504478280590716,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5333333333333333,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.45454545454545453,
+     "tqa_phys": 0.7192982456140351
+    },
+    "n": 237
+   },
+   "mu*": {
+    "macro": 0.6104625199362042,
+    "low": 0.5391552089215133,
+    "high": 0.6766082956898174,
+    "cost": 0.0233774393350211,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5666666666666667,
+     "aime_2026": 0.6,
+     "hmmt_feb_2026": 0.42424242424242425,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   },
+   "maximal": {
+    "macro": 0.5910685805422647,
+    "low": 0.5174242424242425,
+    "high": 0.6587028985507245,
+    "cost": 0.026686645761603376,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5333333333333333,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.3939393939393939,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   },
+   "oracle (stage 0)": {
+    "macro": 0.7150558213716108,
+    "low": 0.6505636322024024,
+    "high": 0.7787050580997948,
+    "cost": 0.019504478280590716,
+    "by_benchmark": {
+     "aime_2024": 0.8666666666666667,
+     "aime_2025": 0.7,
+     "aime_2026": 0.7,
+     "hmmt_feb_2026": 0.5454545454545454,
+     "tqa_phys": 0.7631578947368421
+    },
+    "n": 237
+   },
+   "oracle (final pool)": {
+    "macro": 0.7312918660287082,
+    "low": 0.6670397744611202,
+    "high": 0.7932400318979267,
+    "cost": 0.026686645761603376,
+    "by_benchmark": {
+     "aime_2024": 0.8666666666666667,
+     "aime_2025": 0.7333333333333333,
+     "aime_2026": 0.7,
+     "hmmt_feb_2026": 0.5757575757575758,
+     "tqa_phys": 0.7807017543859649
+    },
+    "n": 237
+   },
+   "vote + program": {
+    "macro": 0.558341307814992,
+    "low": 0.4806953606865111,
+    "high": 0.6290916927899687,
+    "cost": 0.018465236690717302,
+    "by_benchmark": {
+     "aime_2024": 0.6666666666666666,
+     "aime_2025": 0.4666666666666667,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.36363636363636365,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   },
+   "weighted vote + program": {
+    "macro": 0.5971291866028708,
+    "low": 0.5218072100313479,
+    "high": 0.6667176116074578,
+    "cost": 0.018465236690717302,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5333333333333333,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.42424242424242425,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   }
+  },
+  "contrast": {
+   "posterior vs vote": {
+    "estimate": 0.07381180223285486,
+    "low": 0.017575757575757578,
+    "high": 0.12970421607378124,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 17,
+    "losses": 4,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior vs weighted vote + program": {
+    "estimate": 0.0043062200956937805,
+    "low": -0.005173538230884557,
+    "high": 0.01818181818181818,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 1,
+    "losses": 1,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior vs Claude Haiku 4.5": {
+    "estimate": 0.19039872408293462,
+    "low": 0.1258977984734564,
+    "high": 0.2550741626794258,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 38,
+    "losses": 3,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior vs DeepSeek-V3": {
+    "estimate": 0.1247846889952153,
+    "low": 0.053521587556985786,
+    "high": 0.19455577902923027,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 31,
+    "losses": 11,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "mu* vs vote": {
+    "estimate": 0.08283891547049442,
+    "low": 0.02165799783133373,
+    "high": 0.14112952534191464,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 21,
+    "losses": 6,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "mu* vs weighted vote + program": {
+    "estimate": 0.013333333333333332,
+    "low": -0.028939172408968483,
+    "high": 0.05794697261184371,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 9,
+    "losses": 7,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "mu* vs Claude Haiku 4.5": {
+    "estimate": 0.19942583732057415,
+    "low": 0.13854498886920177,
+    "high": 0.2613840926426738,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 39,
+    "losses": 2,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "mu* vs DeepSeek-V3": {
+    "estimate": 0.13381180223285488,
+    "low": 0.06493774257351845,
+    "high": 0.19809101310588717,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 31,
+    "losses": 9,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "maximal vs vote": {
+    "estimate": 0.06344497607655503,
+    "low": 0.005503189792663478,
+    "high": 0.1192728312877054,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 18,
+    "losses": 6,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "maximal vs weighted vote + program": {
+    "estimate": -0.006060606060606061,
+    "low": -0.0484393798252671,
+    "high": 0.033345765345765284,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 7,
+    "losses": 8,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "maximal vs Claude Haiku 4.5": {
+    "estimate": 0.18003189792663477,
+    "low": 0.11598086124401914,
+    "high": 0.24070191937524055,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 37,
+    "losses": 3,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "maximal vs DeepSeek-V3": {
+    "estimate": 0.11441786283891546,
+    "low": 0.0467616341991342,
+    "high": 0.17930791050572856,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 29,
+    "losses": 10,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   }
+  },
+  "best_single": "DeepSeek-V3",
+  "train_best": "Claude Haiku 4.5",
+  "zone_stats": {
+   "A": {
+    "n": 134,
+    "share": 0.5654008438818565,
+    "vote": 0.835820895522388,
+    "posterior": 0.835820895522388,
+    "mu*": 0.835820895522388,
+    "maximal": 0.835820895522388,
+    "oracle (stage 0)": 0.8582089552238806,
+    "oracle (final pool)": 0.8582089552238806,
+    "extra_cost_mu": 0.0,
+    "extra_cost_max": 0.0,
+    "actions_max": 0.0
+   },
+   "L": {
+    "n": 61,
+    "share": 0.25738396624472576,
+    "vote": 0.3442622950819672,
+    "posterior": 0.4426229508196721,
+    "mu*": 0.4426229508196721,
+    "maximal": 0.4098360655737705,
+    "oracle (stage 0)": 0.6229508196721312,
+    "oracle (final pool)": 0.639344262295082,
+    "extra_cost_mu": 0.004644317496721309,
+    "extra_cost_max": 0.01241328447704918,
+    "actions_max": 2.4262295081967213
+   },
+   "U": {
+    "n": 42,
+    "share": 0.17721518987341772,
+    "vote": 0.14285714285714285,
+    "posterior": 0.30952380952380953,
+    "mu*": 0.35714285714285715,
+    "maximal": 0.3333333333333333,
+    "oracle (stage 0)": 0.47619047619047616,
+    "oracle (final pool)": 0.5476190476190477,
+    "extra_cost_mu": 0.015109247680952382,
+    "extra_cost_max": 0.02249912714047619,
+    "actions_max": 3.880952380952381
+   }
+  },
+  "post_cutoff": {
+   "n": 63,
+   "table": {
+    "vote": {
+     "macro": 0.4015151515151515,
+     "low": 0.28787878787878785,
+     "high": 0.5197727272727269,
+     "cost": 0.022919823165079362,
+     "by_benchmark": {
+      "aime_2026": 0.5,
+      "hmmt_feb_2026": 0.30303030303030304
+     },
+     "n": 63
+    },
+    "weighted vote + program": {
+     "macro": 0.4954545454545455,
+     "low": 0.3771969696969697,
+     "high": 0.6137121212121208,
+     "cost": 0.024304402250793652,
+     "by_benchmark": {
+      "aime_2026": 0.5666666666666667,
+      "hmmt_feb_2026": 0.42424242424242425
+     },
+     "n": 63
+    },
+    "posterior": {
+     "macro": 0.5106060606060606,
+     "low": 0.3878787878787879,
+     "high": 0.6333333333333333,
+     "cost": 0.02597138926507937,
+     "by_benchmark": {
+      "aime_2026": 0.5666666666666667,
+      "hmmt_feb_2026": 0.45454545454545453
+     },
+     "n": 63
+    },
+    "mu*": {
+     "macro": 0.5121212121212121,
+     "low": 0.39541666666666664,
+     "high": 0.6272727272727273,
+     "cost": 0.03241730909365079,
+     "by_benchmark": {
+      "aime_2026": 0.6,
+      "hmmt_feb_2026": 0.42424242424242425
+     },
+     "n": 63
+    },
+    "maximal": {
+     "macro": 0.4803030303030303,
+     "low": 0.35454545454545455,
+     "high": 0.595492424242424,
+     "cost": 0.037725478011111105,
+     "by_benchmark": {
+      "aime_2026": 0.5666666666666667,
+      "hmmt_feb_2026": 0.3939393939393939
+     },
+     "n": 63
+    }
+   },
+   "contrast": {
+    "posterior vs vote": {
+     "estimate": 0.1090909090909091,
+     "low": 0.010606060606060605,
+     "high": 0.2181818181818182,
+     "level": 0.95,
+     "samples": 2000,
+     "families": 63,
+     "seeds": 1,
+     "seed_panels": {
+      "aime_2026": [
+       0
+      ],
+      "hmmt_feb_2026": [
+       0
+      ]
+     },
+     "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+     "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+     "wins": 9,
+     "losses": 2,
+     "mcnemar_exact_p": 0.0654296875,
+     "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy",
+     "holm_p": 0.392578125
+    },
+    "posterior vs weighted vote + program": {
+     "estimate": 0.015151515151515152,
+     "low": 0.0,
+     "high": 0.045454545454545456,
+     "level": 0.95,
+     "samples": 2000,
+     "families": 63,
+     "seeds": 1,
+     "seed_panels": {
+      "aime_2026": [
+       0
+      ],
+      "hmmt_feb_2026": [
+       0
+      ]
+     },
+     "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+     "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+     "wins": 1,
+     "losses": 0,
+     "mcnemar_exact_p": 1.0,
+     "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy",
+     "holm_p": 1.0
+    },
+    "mu* vs vote": {
+     "estimate": 0.11060606060606061,
+     "low": -0.0015151515151515145,
+     "high": 0.22424242424242424,
+     "level": 0.95,
+     "samples": 2000,
+     "families": 63,
+     "seeds": 1,
+     "seed_panels": {
+      "aime_2026": [
+       0
+      ],
+      "hmmt_feb_2026": [
+       0
+      ]
+     },
+     "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+     "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+     "wins": 10,
+     "losses": 3,
+     "mcnemar_exact_p": 0.09228515625,
+     "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy",
+     "holm_p": 0.46142578125
+    },
+    "mu* vs weighted vote + program": {
+     "estimate": 0.016666666666666666,
+     "low": -0.048484848484848485,
+     "high": 0.08333333333333333,
+     "level": 0.95,
+     "samples": 2000,
+     "families": 63,
+     "seeds": 1,
+     "seed_panels": {
+      "aime_2026": [
+       0
+      ],
+      "hmmt_feb_2026": [
+       0
+      ]
+     },
+     "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+     "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+     "wins": 3,
+     "losses": 2,
+     "mcnemar_exact_p": 1.0,
+     "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy",
+     "holm_p": 1.0
+    },
+    "maximal vs vote": {
+     "estimate": 0.0787878787878788,
+     "low": -0.022765151515151506,
+     "high": 0.17731060606060586,
+     "level": 0.95,
+     "samples": 2000,
+     "families": 63,
+     "seeds": 1,
+     "seed_panels": {
+      "aime_2026": [
+       0
+      ],
+      "hmmt_feb_2026": [
+       0
+      ]
+     },
+     "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+     "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+     "wins": 8,
+     "losses": 3,
+     "mcnemar_exact_p": 0.2265625,
+     "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy",
+     "holm_p": 0.90625
+    },
+    "maximal vs weighted vote + program": {
+     "estimate": -0.015151515151515152,
+     "low": -0.0803030303030303,
+     "high": 0.05,
+     "level": 0.95,
+     "samples": 2000,
+     "families": 63,
+     "seeds": 1,
+     "seed_panels": {
+      "aime_2026": [
+       0
+      ],
+      "hmmt_feb_2026": [
+       0
+      ]
+     },
+     "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+     "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+     "wins": 2,
+     "losses": 3,
+     "mcnemar_exact_p": 1.0,
+     "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy",
+     "holm_p": 1.0
+    }
+   }
+  },
+  "components": {
+   "posterior (full)": {
+    "macro": 0.6031897926634768,
+    "low": 0.5261299094136201,
+    "high": 0.6720677537801432,
+    "cost": 0.019504478280590716,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5333333333333333,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.45454545454545453,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   },
+   "posterior, no program answer": {
+    "macro": 0.535438596491228,
+    "low": 0.4611936641257293,
+    "high": 0.6043744000564654,
+    "cost": 0.018603046741350215,
+    "by_benchmark": {
+     "aime_2024": 0.6666666666666666,
+     "aime_2025": 0.4666666666666667,
+     "aime_2026": 0.5,
+     "hmmt_feb_2026": 0.3333333333333333,
+     "tqa_phys": 0.7105263157894737
+    },
+    "n": 237
+   },
+   "posterior, no check evidence": {
+    "macro": 0.5971291866028708,
+    "low": 0.5218072100313479,
+    "high": 0.6667176116074578,
+    "cost": 0.01843203963248945,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5333333333333333,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.42424242424242425,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   },
+   "posterior, equal abilities": {
+    "macro": 0.598883572567783,
+    "low": 0.526832068415553,
+    "high": 0.6686483395989973,
+    "cost": 0.019504478280590716,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5666666666666667,
+     "aime_2026": 0.5333333333333333,
+     "hmmt_feb_2026": 0.42424242424242425,
+     "tqa_phys": 0.7368421052631579
+    },
+    "n": 237
+   },
+   "posterior, difficulty fixed": {
+    "macro": 0.6031897926634768,
+    "low": 0.5261299094136201,
+    "high": 0.6720677537801432,
+    "cost": 0.019504478280590716,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5333333333333333,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.45454545454545453,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   },
+   "vote + program": {
+    "macro": 0.558341307814992,
+    "low": 0.4806953606865111,
+    "high": 0.6290916927899687,
+    "cost": 0.018465236690717302,
+    "by_benchmark": {
+     "aime_2024": 0.6666666666666666,
+     "aime_2025": 0.4666666666666667,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.36363636363636365,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   },
+   "vote + program as tie-breaker": {
+    "macro": 0.5971291866028708,
+    "low": 0.5218072100313479,
+    "high": 0.6667176116074578,
+    "cost": 0.018465236690717302,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5333333333333333,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.42424242424242425,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   },
+   "weighted vote + program": {
+    "macro": 0.5971291866028708,
+    "low": 0.5218072100313479,
+    "high": 0.6667176116074578,
+    "cost": 0.018465236690717302,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.5333333333333333,
+     "aime_2026": 0.5666666666666667,
+     "hmmt_feb_2026": 0.42424242424242425,
+     "tqa_phys": 0.7280701754385965
+    },
+    "n": 237
+   },
+   "vote (members)": {
+    "macro": 0.5276236044657098,
+    "low": 0.45283784064905347,
+    "high": 0.5961805196821498,
+    "cost": 0.017563805151476795,
+    "by_benchmark": {
+     "aime_2024": 0.6666666666666666,
+     "aime_2025": 0.4666666666666667,
+     "aime_2026": 0.5,
+     "hmmt_feb_2026": 0.30303030303030304,
+     "tqa_phys": 0.7017543859649122
+    },
+    "n": 237
+   }
+  },
+  "component_contrast": {
+   "posterior, no program answer": {
+    "estimate": -0.06775119617224881,
+    "low": -0.12233737311539035,
+    "high": -0.01333098223615466,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 4,
+    "losses": 16,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior, no check evidence": {
+    "estimate": -0.006060606060606061,
+    "low": -0.01818181818181818,
+    "high": 0.0,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 0,
+    "losses": 1,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior, equal abilities": {
+    "estimate": -0.0043062200956937805,
+    "low": -0.03231259968102074,
+    "high": 0.022406143198906277,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 3,
+    "losses": 3,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior, difficulty fixed": {
+    "estimate": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "vote + program": {
+    "estimate": -0.044848484848484846,
+    "low": -0.0885,
+    "high": -0.005454545454545455,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 2,
+    "losses": 9,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "vote + program as tie-breaker": {
+    "estimate": -0.006060606060606061,
+    "low": -0.01818181818181818,
+    "high": 0.0,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 0,
+    "losses": 1,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "weighted vote + program": {
+    "estimate": -0.006060606060606061,
+    "low": -0.01818181818181818,
+    "high": 0.0,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 0,
+    "losses": 1,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "vote (members)": {
+    "estimate": -0.07556618819776714,
+    "low": -0.1320729830641335,
+    "high": -0.019719227674980102,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 235,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2024": [
+      0
+     ],
+     "aime_2025": [
+      0
+     ],
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ],
+     "tqa_phys": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 4,
+    "losses": 18,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   }
+  },
+  "reproduction_mismatches": {
+   "correctness": 1,
+   "choice": 0,
+   "n": 237,
+   "weighted_vote_same_choice": 231
+  },
+  "calibration": {
+   "posterior": {
+    "ece": 0.139856663084024,
+    "brier": 0.19103410301863608,
+    "bins": [
+     {
+      "n": 10,
+      "confidence": 0.18439458357665614,
+      "accuracy": 0.2
+     },
+     {
+      "n": 39,
+      "confidence": 0.23419041276227232,
+      "accuracy": 0.3076923076923077
+     },
+     {
+      "n": 10,
+      "confidence": 0.33719263058780935,
+      "accuracy": 0.2
+     },
+     {
+      "n": 8,
+      "confidence": 0.4799501842099489,
+      "accuracy": 0.625
+     },
+     {
+      "n": 3,
+      "confidence": 0.5152077838055966,
+      "accuracy": 0.3333333333333333
+     },
+     {
+      "n": 14,
+      "confidence": 0.6640695443150488,
+      "accuracy": 0.5
+     },
+     {
+      "n": 6,
+      "confidence": 0.7421085150620333,
+      "accuracy": 0.6666666666666666
+     },
+     {
+      "n": 13,
+      "confidence": 0.8504744630865313,
+      "accuracy": 0.5384615384615384
+     },
+     {
+      "n": 134,
+      "confidence": 0.9943258221633268,
+      "accuracy": 0.8432835820895522
+     }
+    ],
+    "n": 237
+   },
+   "weighted vote share": {
+    "ece": 0.11393167262199093,
+    "brier": 0.18179926237727145,
+    "bins": [
+     {
+      "n": 1,
+      "confidence": 0.1429992371241862,
+      "accuracy": 0.0
+     },
+     {
+      "n": 37,
+      "confidence": 0.26549123350002735,
+      "accuracy": 0.16216216216216217
+     },
+     {
+      "n": 34,
+      "confidence": 0.36299531466060136,
+      "accuracy": 0.5
+     },
+     {
+      "n": 19,
+      "confidence": 0.4398347367930904,
+      "accuracy": 0.631578947368421
+     },
+     {
+      "n": 13,
+      "confidence": 0.5276970923265791,
+      "accuracy": 0.5384615384615384
+     },
+     {
+      "n": 32,
+      "confidence": 0.6406527748264702,
+      "accuracy": 0.78125
+     },
+     {
+      "n": 23,
+      "confidence": 0.7535532680271982,
+      "accuracy": 0.782608695652174
+     },
+     {
+      "n": 11,
+      "confidence": 0.8570007628758137,
+      "accuracy": 0.7272727272727273
+     },
+     {
+      "n": 67,
+      "confidence": 1.0,
+      "accuracy": 0.8805970149253731
+     }
+    ],
+    "n": 237
+   },
+   "vote share": {
+    "ece": 0.10829817158931074,
+    "brier": 0.17018284106891704,
+    "bins": [
+     {
+      "n": 73,
+      "confidence": 0.3333333333333333,
+      "accuracy": 0.1643835616438356
+     },
+     {
+      "n": 71,
+      "confidence": 0.6666666666666664,
+      "accuracy": 0.647887323943662
+     },
+     {
+      "n": 93,
+      "confidence": 1.0,
+      "accuracy": 0.8709677419354839
+     }
+    ],
+    "n": 237
+   }
+  },
+  "aurc": {
+   "posterior": 0.18536566010506822,
+   "weighted vote share": 0.1879102235685382,
+   "vote share": 0.20902381316735397
+  },
+  "seeds": null,
+  "zones": {
+   "A": 134,
+   "L": 61,
+   "U": 42
+  },
+  "stops": {
+   "no action has value": 172,
+   "action budget exhausted": 65
+  },
+  "actions": {
+   "tool_alt": {
+    "n": 89,
+    "rescue": 3,
+    "harm": 2,
+    "mean_voc": 0.06620495681023415,
+    "mean_gain": 0.011235955056179775,
+    "mean_cost": 0.0009841197337078652
+   },
+   "diversify": {
+    "n": 19,
+    "rescue": 0,
+    "harm": 2,
+    "mean_voc": 0.026630145262605057,
+    "mean_gain": -0.10526315789473684,
+    "mean_cost": 0.009963510673684211
+   },
+   "sample": {
+    "n": 132,
+    "rescue": 5,
+    "harm": 6,
+    "mean_voc": 0.030824542260243393,
+    "mean_gain": -0.007575757575757576,
+    "mean_cost": 0.005846319559848484
+   },
+   "judge": {
+    "n": 22,
+    "rescue": 4,
+    "harm": 2,
+    "mean_voc": 0.09318354043769493,
+    "mean_gain": 0.09090909090909091,
+    "mean_cost": 0.014624681818181821
+   },
+   "coach": {
+    "n": 49,
+    "rescue": 2,
+    "harm": 3,
+    "mean_voc": 0.01476177976862979,
+    "mean_gain": -0.02040816326530612,
+    "mean_cost": 0.00677190106122449
+   }
+  },
+  "errors": {
+   "aime_2024 / stage 0": {
+    "correct": 22,
+    "selection failure": 4,
+    "coverage failure": 4
+   },
+   "all / stage 0": {
+    "correct": 152,
+    "selection failure": 21,
+    "coverage failure": 64
+   },
+   "aime_2024 / final": {
+    "correct": 22,
+    "selection failure": 4,
+    "coverage failure": 4
+   },
+   "all / final": {
+    "correct": 151,
+    "selection failure": 26,
+    "coverage failure": 60
+   },
+   "aime_2025 / stage 0": {
+    "correct": 16,
+    "coverage failure": 9,
+    "selection failure": 5
+   },
+   "aime_2025 / final": {
+    "correct": 16,
+    "selection failure": 6,
+    "coverage failure": 8
+   },
+   "aime_2026 / stage 0": {
+    "correct": 17,
+    "selection failure": 4,
+    "coverage failure": 9
+   },
+   "aime_2026 / final": {
+    "correct": 17,
+    "selection failure": 4,
+    "coverage failure": 9
+   },
+   "hmmt_feb_2026 / stage 0": {
+    "correct": 15,
+    "selection failure": 3,
+    "coverage failure": 15
+   },
+   "hmmt_feb_2026 / final": {
+    "correct": 13,
+    "selection failure": 6,
+    "coverage failure": 14
+   },
+   "tqa_phys / stage 0": {
+    "correct": 82,
+    "coverage failure": 27,
+    "selection failure": 5
+   },
+   "tqa_phys / final": {
+    "correct": 83,
+    "coverage failure": 25,
+    "selection failure": 6
+   }
+  }
+ },
+ "e2": {
+  "mu_star": 420.30719218835964,
+  "complete": true,
+  "table": {
+   "single sample": {
+    "macro": 0.6908333333333333,
+    "low": 0.6141527777777778,
+    "high": 0.7647291666666666,
+    "cost": 0.0004068636724137931,
+    "by_benchmark": {
+     "aime_2024": 0.5916666666666667,
+     "aime_2025": 0.5708333333333333,
+     "math500": 0.91
+    },
+    "n": 580
+   },
+   "single sample (mean of 3)": {
+    "macro": 0.6817592592592593,
+    "low": 0.6102708333333333,
+    "high": 0.7528726851851852,
+    "cost": 0.0004041826551724138,
+    "by_benchmark": {
+     "aime_2024": 0.5972222222222222,
+     "aime_2025": 0.5347222222222222,
+     "math500": 0.9133333333333333
+    },
+    "n": 580
+   },
+   "program": {
+    "macro": 0.6130555555555556,
+    "low": 0.5394444444444445,
+    "high": 0.6827847222222222,
+    "cost": 0.0001793975,
+    "by_benchmark": {
+     "aime_2024": 0.5875,
+     "aime_2025": 0.5916666666666667,
+     "math500": 0.66
+    },
+    "n": 580
+   },
+   "vote": {
+    "macro": 0.7255555555555556,
+    "low": 0.6483333333333333,
+    "high": 0.7988958333333332,
+    "cost": 0.0012125479655172415,
+    "by_benchmark": {
+     "aime_2024": 0.6541666666666667,
+     "aime_2025": 0.6125,
+     "math500": 0.91
+    },
+    "n": 580
+   },
+   "posterior": {
+    "macro": 0.8011111111111111,
+    "low": 0.7330486111111111,
+    "high": 0.8627847222222221,
+    "cost": 0.001722198034482759,
+    "by_benchmark": {
+     "aime_2024": 0.7458333333333333,
+     "aime_2025": 0.7375,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "mu*": {
+    "macro": 0.8197222222222221,
+    "low": 0.7544305555555555,
+    "high": 0.877236111111111,
+    "cost": 0.0017817435344827585,
+    "by_benchmark": {
+     "aime_2024": 0.7666666666666667,
+     "aime_2025": 0.7625,
+     "math500": 0.93
+    },
+    "n": 580
+   },
+   "maximal": {
+    "macro": 0.8372222222222222,
+    "low": 0.7730416666666667,
+    "high": 0.8930694444444444,
+    "cost": 0.0020037045172413798,
+    "by_benchmark": {
+     "aime_2024": 0.8,
+     "aime_2025": 0.7916666666666666,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "oracle (stage 0)": {
+    "macro": 0.8519444444444444,
+    "low": 0.7883263888888887,
+    "high": 0.908611111111111,
+    "cost": 0.001722198034482759,
+    "by_benchmark": {
+     "aime_2024": 0.8125,
+     "aime_2025": 0.7833333333333333,
+     "math500": 0.96
+    },
+    "n": 580
+   },
+   "oracle (final pool)": {
+    "macro": 0.8769444444444444,
+    "low": 0.8169444444444446,
+    "high": 0.93,
+    "cost": 0.0020037045172413798,
+    "by_benchmark": {
+     "aime_2024": 0.8416666666666667,
+     "aime_2025": 0.8291666666666667,
+     "math500": 0.96
+    },
+    "n": 580
+   },
+   "vote + program": {
+    "macro": 0.7511111111111112,
+    "low": 0.6744444444444445,
+    "high": 0.8219583333333333,
+    "cost": 0.0013919454655172414,
+    "by_benchmark": {
+     "aime_2024": 0.6958333333333333,
+     "aime_2025": 0.6375,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "weighted vote + program": {
+    "macro": 0.8066666666666666,
+    "low": 0.7394166666666667,
+    "high": 0.8663888888888889,
+    "cost": 0.0013919454655172414,
+    "by_benchmark": {
+     "aime_2024": 0.7625,
+     "aime_2025": 0.7375,
+     "math500": 0.92
+    },
+    "n": 580
+   }
+  },
+  "contrast": {
+   "posterior vs vote": {
+    "estimate": 0.07555555555555556,
+    "low": 0.031111111111111114,
+    "high": 0.125,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 68,
+    "losses": 15,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior vs weighted vote + program": {
+    "estimate": -0.005555555555555556,
+    "low": -0.019444444444444445,
+    "high": 0.005555555555555557,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 2,
+    "losses": 6,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior vs single sample": {
+    "estimate": 0.11027777777777777,
+    "low": 0.06581944444444446,
+    "high": 0.1613958333333333,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 88,
+    "losses": 10,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "mu* vs vote": {
+    "estimate": 0.09416666666666666,
+    "low": 0.04305555555555556,
+    "high": 0.14916666666666667,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 83,
+    "losses": 18,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "mu* vs weighted vote + program": {
+    "estimate": 0.013055555555555556,
+    "low": -0.009166666666666668,
+    "high": 0.03751388888888881,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 17,
+    "losses": 9,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "mu* vs single sample": {
+    "estimate": 0.1288888888888889,
+    "low": 0.07833333333333334,
+    "high": 0.1839027777777777,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 103,
+    "losses": 13,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "maximal vs vote": {
+    "estimate": 0.11166666666666668,
+    "low": 0.06638194444444444,
+    "high": 0.16555555555555557,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 87,
+    "losses": 8,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "maximal vs weighted vote + program": {
+    "estimate": 0.030555555555555558,
+    "low": 0.005826388888888889,
+    "high": 0.059722222222222225,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 29,
+    "losses": 7,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "maximal vs single sample": {
+    "estimate": 0.14638888888888887,
+    "low": 0.0969375,
+    "high": 0.20084722222222215,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 112,
+    "losses": 8,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   }
+  },
+  "best_single": "single sample",
+  "train_best": "single sample",
+  "zone_stats": {
+   "A": {
+    "n": 326,
+    "share": 0.5620689655172414,
+    "vote": 0.9601226993865031,
+    "posterior": 0.9601226993865031,
+    "mu*": 0.9601226993865031,
+    "maximal": 0.9601226993865031,
+    "oracle (stage 0)": 0.9662576687116564,
+    "oracle (final pool)": 0.9662576687116564,
+    "extra_cost_mu": 0.0,
+    "extra_cost_max": 0.0,
+    "actions_max": 0.0
+   },
+   "L": {
+    "n": 172,
+    "share": 0.296551724137931,
+    "vote": 0.3546511627906977,
+    "posterior": 0.6744186046511628,
+    "mu*": 0.686046511627907,
+    "maximal": 0.7441860465116279,
+    "oracle (stage 0)": 0.7965116279069767,
+    "oracle (final pool)": 0.8197674418604651,
+    "extra_cost_mu": 5.4490232558139536e-05,
+    "extra_cost_max": 0.0003596331976744186,
+    "actions_max": 1.3604651162790697
+   },
+   "U": {
+    "n": 82,
+    "share": 0.1413793103448276,
+    "vote": 0.25609756097560976,
+    "posterior": 0.23170731707317074,
+    "mu*": 0.35365853658536583,
+    "maximal": 0.4024390243902439,
+    "oracle (stage 0)": 0.32926829268292684,
+    "oracle (final pool)": 0.5,
+    "extra_cost_mu": 0.00030687890243902445,
+    "extra_cost_max": 0.0012367908536585369,
+    "actions_max": 2.841463414634146
+   }
+  },
+  "post_cutoff": null,
+  "components": {
+   "posterior (full)": {
+    "macro": 0.8011111111111111,
+    "low": 0.7330486111111111,
+    "high": 0.8627847222222221,
+    "cost": 0.001722198034482759,
+    "by_benchmark": {
+     "aime_2024": 0.7458333333333333,
+     "aime_2025": 0.7375,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "posterior, no program answer": {
+    "macro": 0.7227777777777779,
+    "low": 0.6444444444444445,
+    "high": 0.7952916666666666,
+    "cost": 0.0015428005344827588,
+    "by_benchmark": {
+     "aime_2024": 0.6458333333333334,
+     "aime_2025": 0.6125,
+     "math500": 0.91
+    },
+    "n": 580
+   },
+   "posterior, no check evidence": {
+    "macro": 0.8066666666666666,
+    "low": 0.7399999999999999,
+    "high": 0.8672291666666666,
+    "cost": 0.0013539433448275862,
+    "by_benchmark": {
+     "aime_2024": 0.7583333333333333,
+     "aime_2025": 0.7416666666666667,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "posterior, equal abilities": {
+    "macro": 0.7761111111111111,
+    "low": 0.706375,
+    "high": 0.8397222222222221,
+    "cost": 0.001722198034482759,
+    "by_benchmark": {
+     "aime_2024": 0.7333333333333333,
+     "aime_2025": 0.675,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "posterior, difficulty fixed": {
+    "macro": 0.8025000000000001,
+    "low": 0.7344444444444443,
+    "high": 0.8647291666666667,
+    "cost": 0.001722198034482759,
+    "by_benchmark": {
+     "aime_2024": 0.75,
+     "aime_2025": 0.7375,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "posterior, no trap mixture": {
+    "macro": 0.8011111111111111,
+    "low": 0.7327708333333333,
+    "high": 0.8622291666666667,
+    "cost": 0.001722198034482759,
+    "by_benchmark": {
+     "aime_2024": 0.7541666666666667,
+     "aime_2025": 0.7291666666666666,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "vote + program": {
+    "macro": 0.7511111111111112,
+    "low": 0.6744444444444445,
+    "high": 0.8219583333333333,
+    "cost": 0.0013919454655172414,
+    "by_benchmark": {
+     "aime_2024": 0.6958333333333333,
+     "aime_2025": 0.6375,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "vote + program as tie-breaker": {
+    "macro": 0.788611111111111,
+    "low": 0.7197152777777778,
+    "high": 0.8522361111111111,
+    "cost": 0.0013919454655172414,
+    "by_benchmark": {
+     "aime_2024": 0.7583333333333333,
+     "aime_2025": 0.6875,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "weighted vote + program": {
+    "macro": 0.8066666666666666,
+    "low": 0.7394166666666667,
+    "high": 0.8663888888888889,
+    "cost": 0.0013919454655172414,
+    "by_benchmark": {
+     "aime_2024": 0.7625,
+     "aime_2025": 0.7375,
+     "math500": 0.92
+    },
+    "n": 580
+   },
+   "vote (members)": {
+    "macro": 0.7255555555555556,
+    "low": 0.6483333333333333,
+    "high": 0.7988958333333332,
+    "cost": 0.0012125479655172415,
+    "by_benchmark": {
+     "aime_2024": 0.6541666666666667,
+     "aime_2025": 0.6125,
+     "math500": 0.91
+    },
+    "n": 580
+   }
+  },
+  "component_contrast": {
+   "posterior, no program answer": {
+    "estimate": -0.07833333333333334,
+    "low": -0.1252777777777778,
+    "high": -0.03638194444444448,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 9,
+    "losses": 64,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior, no check evidence": {
+    "estimate": 0.005555555555555556,
+    "low": -0.004166666666666667,
+    "high": 0.018055555555555557,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 5,
+    "losses": 1,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior, equal abilities": {
+    "estimate": -0.024999999999999998,
+    "low": -0.05527777777777778,
+    "high": 0.002500000000000001,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 7,
+    "losses": 25,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior, difficulty fixed": {
+    "estimate": 0.001388888888888889,
+    "low": -0.005555555555555556,
+    "high": 0.011111111111111112,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 2,
+    "losses": 1,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "posterior, no trap mixture": {
+    "estimate": 0.0,
+    "low": -0.011111111111111112,
+    "high": 0.009722222222222222,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 2,
+    "losses": 2,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "vote + program": {
+    "estimate": -0.05000000000000001,
+    "low": -0.09306944444444444,
+    "high": -0.010555555555555556,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 13,
+    "losses": 49,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "vote + program as tie-breaker": {
+    "estimate": -0.012500000000000002,
+    "low": -0.04528472222222222,
+    "high": 0.0175,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 11,
+    "losses": 20,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "weighted vote + program": {
+    "estimate": 0.005555555555555556,
+    "low": -0.005555555555555557,
+    "high": 0.019444444444444445,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 6,
+    "losses": 2,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   },
+   "vote (members)": {
+    "estimate": -0.07555555555555556,
+    "low": -0.125,
+    "high": -0.031111111111111114,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 160,
+    "seeds": 8,
+    "seed_panels": {
+     "aime_2024": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "aime_2025": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "math500": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 15,
+    "losses": 68,
+    "mcnemar_exact_p": null,
+    "mcnemar_note": "omitted: repeated seeds or related items; use clustered interval"
+   }
+  },
+  "reproduction_mismatches": {
+   "correctness": 0,
+   "choice": 0,
+   "n": 580,
+   "weighted_vote_same_choice": 541
+  },
+  "calibration": {
+   "posterior": {
+    "ece": 0.04092780829242536,
+    "brier": 0.11049637243267914,
+    "bins": [
+     {
+      "n": 5,
+      "confidence": 0.03785875272233012,
+      "accuracy": 0.2
+     },
+     {
+      "n": 46,
+      "confidence": 0.14614192740522458,
+      "accuracy": 0.17391304347826086
+     },
+     {
+      "n": 25,
+      "confidence": 0.25971757243555177,
+      "accuracy": 0.28
+     },
+     {
+      "n": 7,
+      "confidence": 0.33787947619901526,
+      "accuracy": 0.14285714285714285
+     },
+     {
+      "n": 38,
+      "confidence": 0.44974743456188154,
+      "accuracy": 0.6052631578947368
+     },
+     {
+      "n": 60,
+      "confidence": 0.5438306187033449,
+      "accuracy": 0.6833333333333333
+     },
+     {
+      "n": 20,
+      "confidence": 0.643921347747351,
+      "accuracy": 0.65
+     },
+     {
+      "n": 11,
+      "confidence": 0.7454719993484403,
+      "accuracy": 0.7272727272727273
+     },
+     {
+      "n": 42,
+      "confidence": 0.8285657516832836,
+      "accuracy": 0.7857142857142857
+     },
+     {
+      "n": 326,
+      "confidence": 0.9704798995040578,
+      "accuracy": 0.9601226993865031
+     }
+    ],
+    "n": 580
+   },
+   "weighted vote share": {
+    "ece": 0.10050477621678736,
+    "brier": 0.13019474860313376,
+    "bins": [
+     {
+      "n": 1,
+      "confidence": 0.0,
+      "accuracy": 0.0
+     },
+     {
+      "n": 71,
+      "confidence": 0.1935793696928694,
+      "accuracy": 0.18309859154929578
+     },
+     {
+      "n": 42,
+      "confidence": 0.3871587393857387,
+      "accuracy": 0.6904761904761905
+     },
+     {
+      "n": 64,
+      "confidence": 0.41926189092139193,
+      "accuracy": 0.6875
+     },
+     {
+      "n": 81,
+      "confidence": 0.580738109078608,
+      "accuracy": 0.8148148148148148
+     },
+     {
+      "n": 46,
+      "confidence": 0.6128412606142613,
+      "accuracy": 0.717391304347826
+     },
+     {
+      "n": 51,
+      "confidence": 0.8064206303071307,
+      "accuracy": 0.8627450980392157
+     },
+     {
+      "n": 224,
+      "confidence": 1.0,
+      "accuracy": 0.9955357142857143
+     }
+    ],
+    "n": 580
+   },
+   "vote share": {
+    "ece": 0.07758620689655168,
+    "brier": 0.1235632183908046,
+    "bins": [
+     {
+      "n": 2,
+      "confidence": 0.0,
+      "accuracy": 0.0
+     },
+     {
+      "n": 141,
+      "confidence": 0.33333333333333326,
+      "accuracy": 0.1773049645390071
+     },
+     {
+      "n": 132,
+      "confidence": 0.6666666666666665,
+      "accuracy": 0.6136363636363636
+     },
+     {
+      "n": 305,
+      "confidence": 1.0,
+      "accuracy": 0.9475409836065574
+     }
+    ],
+    "n": 580
+   }
+  },
+  "aurc": {
+   "posterior": 0.06870643219586689,
+   "weighted vote share": 0.06150953485979986,
+   "vote share": 0.11266327750214872
+  },
+  "seeds": {
+   "vote": {
+    "per_seed": [
+     0.6166666666666667,
+     0.6666666666666666,
+     0.5833333333333334,
+     0.6833333333333333,
+     0.6333333333333333,
+     0.6166666666666667,
+     0.65,
+     0.6166666666666667
+    ],
+    "mean": 0.6333333333333333,
+    "sd": 0.032120803721981034
+   },
+   "posterior": {
+    "per_seed": [
+     0.7333333333333333,
+     0.7666666666666667,
+     0.7333333333333333,
+     0.75,
+     0.75,
+     0.75,
+     0.75,
+     0.7
+    ],
+    "mean": 0.7416666666666667,
+    "sd": 0.01992047682223992
+   },
+   "mu*": {
+    "per_seed": [
+     0.75,
+     0.7833333333333333,
+     0.7333333333333333,
+     0.7833333333333333,
+     0.7666666666666667,
+     0.7666666666666667,
+     0.8,
+     0.7333333333333333
+    ],
+    "mean": 0.7645833333333333,
+    "sd": 0.02429563289518878
+   },
+   "maximal": {
+    "per_seed": [
+     0.7833333333333333,
+     0.8166666666666667,
+     0.7666666666666667,
+     0.8166666666666667,
+     0.7666666666666667,
+     0.8,
+     0.8333333333333334,
+     0.7833333333333333
+    ],
+    "mean": 0.7958333333333334,
+    "sd": 0.02480079363809482
+   }
+  },
+  "zones": {
+   "A": 326,
+   "U": 82,
+   "L": 172
+  },
+  "stops": {
+   "no action has value": 523,
+   "action budget exhausted": 57
+  },
+  "actions": {
+   "tool_alt": {
+    "n": 213,
+    "rescue": 19,
+    "harm": 8,
+    "mean_voc": 0.17647766657508576,
+    "mean_gain": 0.051643192488262914,
+    "mean_cost": 0.00022652826291079815
+   },
+   "diversify": {
+    "n": 79,
+    "rescue": 6,
+    "harm": 1,
+    "mean_voc": 0.03875309419809173,
+    "mean_gain": 0.06329113924050633,
+    "mean_cost": 0.0007652808860759494
+   },
+   "review": {
+    "n": 52,
+    "rescue": 1,
+    "harm": 1,
+    "mean_voc": 0.018638448629113395,
+    "mean_gain": 0.0,
+    "mean_cost": 0.0001896159615384615
+   },
+   "judge": {
+    "n": 80,
+    "rescue": 13,
+    "harm": 4,
+    "mean_voc": 0.08887501579728006,
+    "mean_gain": 0.1125,
+    "mean_cost": 0.00027862499999999996
+   },
+   "sample": {
+    "n": 41,
+    "rescue": 3,
+    "harm": 2,
+    "mean_voc": 0.047481786026327306,
+    "mean_gain": 0.024390243902439025,
+    "mean_cost": 0.0005314341463414635
+   },
+   "coach": {
+    "n": 2,
+    "rescue": 0,
+    "harm": 0,
+    "mean_voc": 0.015047785944556219,
+    "mean_gain": 0.0,
+    "mean_cost": 0.0003136100000000002
+   }
+  },
+  "errors": {
+   "aime_2024 / stage 0": {
+    "correct": 179,
+    "selection failure": 16,
+    "coverage failure": 45
+   },
+   "all / stage 0": {
+    "correct": 448,
+    "selection failure": 31,
+    "coverage failure": 101
+   },
+   "aime_2024 / final": {
+    "correct": 192,
+    "selection failure": 10,
+    "coverage failure": 38
+   },
+   "all / final": {
+    "correct": 474,
+    "selection failure": 23,
+    "coverage failure": 83
+   },
+   "aime_2025 / stage 0": {
+    "correct": 177,
+    "selection failure": 11,
+    "coverage failure": 52
+   },
+   "aime_2025 / final": {
+    "correct": 190,
+    "coverage failure": 41,
+    "selection failure": 9
+   },
+   "math500 / stage 0": {
+    "correct": 92,
+    "coverage failure": 4,
+    "selection failure": 4
+   },
+   "math500 / final": {
+    "correct": 92,
+    "selection failure": 4,
+    "coverage failure": 4
+   }
+  }
+ },
+ "ablations": {
+  "A1": {
+   "n": 45,
+   "accuracy": 0.5333333333333333,
+   "macro": 0.5166666666666666,
+   "cost": 0.04754051688222222,
+   "marginal": 0.009423005306666666,
+   "calls": 10.466666666666667,
+   "complete": true,
+   "paired": {
+    "estimate": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_p": 1.0,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": 0.009423005306666662
+  },
+  "A2": {
+   "n": 45,
+   "accuracy": 0.5555555555555556,
+   "macro": 0.5166666666666666,
+   "cost": 0.05854826965555555,
+   "marginal": 0.022715013635555555,
+   "calls": 9.155555555555555,
+   "complete": true,
+   "paired": {
+    "estimate": 0.0,
+    "low": -0.1,
+    "high": 0.08333333333333333,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 3,
+    "losses": 2,
+    "mcnemar_exact_p": 1.0,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": 0.020430758079999993
+  },
+  "A3": {
+   "n": 45,
+   "accuracy": 0.5333333333333333,
+   "macro": 0.5166666666666666,
+   "cost": 0.038117511575555554,
+   "marginal": 0.0,
+   "calls": 8.155555555555555,
+   "complete": true,
+   "paired": {
+    "estimate": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_p": 1.0,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": 0.0
+  },
+  "A4": {
+   "n": 45,
+   "accuracy": 0.5555555555555556,
+   "macro": 0.5333333333333333,
+   "cost": 0.049326863871111105,
+   "marginal": 0.021094298024444444,
+   "calls": 8.177777777777777,
+   "complete": true,
+   "paired": {
+    "estimate": 0.016666666666666666,
+    "low": -0.1,
+    "high": 0.13333333333333333,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 4,
+    "losses": 3,
+    "mcnemar_exact_p": 1.0,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": 0.011209352295555551
+  },
+  "A5": {
+   "n": 45,
+   "accuracy": 0.5111111111111111,
+   "macro": 0.48333333333333334,
+   "cost": 0.04001739037555556,
+   "marginal": 0.010569522373333334,
+   "calls": 7.8,
+   "complete": true,
+   "paired": {
+    "estimate": -0.03333333333333333,
+    "low": -0.13333333333333333,
+    "high": 0.03333333333333333,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 1,
+    "losses": 2,
+    "mcnemar_exact_p": 1.0,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": 0.0018998788000000044
+  },
+  "A6": {
+   "n": 45,
+   "accuracy": 0.5777777777777777,
+   "macro": 0.55,
+   "cost": 0.03797445647555556,
+   "marginal": 0.00039757167999999993,
+   "calls": 7.977777777777778,
+   "complete": true,
+   "paired": {
+    "estimate": 0.03333333333333333,
+    "low": 0.0,
+    "high": 0.08333333333333333,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 2,
+    "losses": 0,
+    "mcnemar_exact_p": 0.5,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": -0.00014305509999999744
+  },
+  "A7": {
+   "n": 45,
+   "accuracy": 0.5333333333333333,
+   "macro": 0.4833333333333333,
+   "cost": 0.044351382582222224,
+   "marginal": 0.011657914713333333,
+   "calls": 6.022222222222222,
+   "complete": true,
+   "paired": {
+    "estimate": -0.03333333333333333,
+    "low": -0.15,
+    "high": 0.06666666666666668,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 3,
+    "losses": 3,
+    "mcnemar_exact_p": 1.0,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": 0.006233871006666669
+  },
+  "A8": {
+   "n": 45,
+   "accuracy": 0.5555555555555556,
+   "macro": 0.5333333333333333,
+   "cost": 0.04155476878,
+   "marginal": 0.03955650326,
+   "calls": 8.022222222222222,
+   "complete": true,
+   "paired": {
+    "estimate": 0.016666666666666666,
+    "low": -0.08333333333333334,
+    "high": 0.13333333333333333,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 3,
+    "losses": 2,
+    "mcnemar_exact_p": 1.0,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": 0.0034372572044444466
+  },
+  "C1": {
+   "n": 45,
+   "accuracy": 0.4888888888888889,
+   "macro": 0.48333333333333334,
+   "cost": 0.08214842222222223,
+   "marginal": 0.07452313333333334,
+   "calls": 5.911111111111111,
+   "complete": true,
+   "paired": {
+    "estimate": -0.03333333333333333,
+    "low": -0.15000000000000002,
+    "high": 0.1,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 4,
+    "losses": 6,
+    "mcnemar_exact_p": 0.75390625,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": 0.04403091064666667
+  },
+  "C2": {
+   "n": 45,
+   "accuracy": 0.5333333333333333,
+   "macro": 0.5166666666666666,
+   "cost": 0.035439495833333334,
+   "marginal": 0.025377154448888887,
+   "calls": 7.2444444444444445,
+   "complete": true,
+   "paired": {
+    "estimate": 0.0,
+    "low": -0.11666666666666667,
+    "high": 0.11666666666666667,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 4,
+    "losses": 4,
+    "mcnemar_exact_p": 1.0,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": -0.00267801574222222
+  },
+  "R1": {
+   "n": 45,
+   "accuracy": 0.5111111111111111,
+   "macro": 0.48333333333333334,
+   "cost": 0.06396498188444447,
+   "marginal": 0.03298240452000001,
+   "calls": 11.955555555555556,
+   "complete": true,
+   "paired": {
+    "estimate": -0.03333333333333333,
+    "low": -0.13333333333333333,
+    "high": 0.05,
+    "level": 0.95,
+    "samples": 2000,
+    "families": 45,
+    "seeds": 1,
+    "seed_panels": {
+     "aime_2026": [
+      0
+     ],
+     "hmmt_feb_2026": [
+      0
+     ]
+    },
+    "seed_schedule_validation": "balanced observed schedule; entirely absent planned seeds require manifest validation",
+    "method": "benchmark-membership-stratified family clusters and schedule-specific crossed-seed percentile bootstrap",
+    "wins": 2,
+    "losses": 3,
+    "mcnemar_exact_p": 1.0,
+    "mcnemar_note": "unweighted independent item-pair test (micro); the interval targets benchmark macro accuracy"
+   },
+   "cost_delta": 0.025847470308888912
+  },
+  "full": {
+   "n": 45,
+   "accuracy": 0.5333333333333333,
+   "macro": 0.5166666666666666,
+   "cost": 0.038117511575555554,
+   "marginal": 0.0,
+   "calls": 8.155555555555555,
+   "complete": true
+  }
+ },
+ "mechanisms": {
+  "z6": {
+   "arms": {
+    "gated_review": {
+     "n": 10,
+     "accuracy": 0.4,
+     "initial": 0.3,
+     "continuation_cost": 0.039467735340000004
+    },
+    "ungated_review": {
+     "n": 10,
+     "accuracy": 0.4,
+     "initial": 0.3,
+     "continuation_cost": 0.049687756250000006
+    }
+   },
+   "paired": {
+    "n": 10,
+    "gated_only": 0,
+    "ungated_only": 0,
+    "mcnemar_exact_p": 1.0
+   }
+  },
+  "z3": {
+   "arms": {
+    "fresh_verified_search": {
+     "n": 7,
+     "accuracy": 0.42857142857142855,
+     "initial": 0.2857142857142857,
+     "continuation_cost": 0.026784193614285717
+    },
+    "graded_coaching": {
+     "n": 3,
+     "accuracy": 0.3333333333333333,
+     "initial": 0.3333333333333333,
+     "continuation_cost": 0.01853725706666667
+    }
+   }
+  }
+ },
+ "self_consistency_e2": {
+  "nl": [
+   {
+    "k": 1,
+    "accuracy": 0.5670833333333333,
+    "cost": 0.00045426293750000003
+   },
+   {
+    "k": 3,
+    "accuracy": 0.6127916666666666,
+    "cost": 0.0013627888125000002
+   },
+   {
+    "k": 5,
+    "accuracy": 0.6443305555555556,
+    "cost": 0.0022713146875
+   },
+   {
+    "k": 8,
+    "accuracy": 0.6601406746031745,
+    "cost": 0.0036341035000000002
+   },
+   {
+    "k": 12,
+    "accuracy": 0.6658926917989418,
+    "cost": 0.005451155250000001
+   },
+   {
+    "k": 16,
+    "accuracy": 0.6708873842592593,
+    "cost": 0.0072682070000000005
+   },
+   {
+    "k": 24,
+    "accuracy": 0.6916666666666667,
+    "cost": 0.010902310500000002
+   }
+  ],
+  "program": [
+   {
+    "m": 1,
+    "accuracy": 0.6669166666666667,
+    "weighted_accuracy": 0.7363333333333333,
+    "cost": 0.0015599298958333336
+   },
+   {
+    "m": 2,
+    "accuracy": 0.7027743055555555,
+    "weighted_accuracy": 0.7787444444444444,
+    "cost": 0.003119859791666667
+   },
+   {
+    "m": 4,
+    "accuracy": 0.724698901098901,
+    "weighted_accuracy": 0.8017152777777778,
+    "cost": 0.006239719583333334
+   },
+   {
+    "m": 8,
+    "accuracy": 0.725,
+    "weighted_accuracy": 0.7833333333333333,
+    "cost": 0.012479439166666668
+   }
+  ],
+  "mathmage": {
+   "posterior": {
+    "accuracy": 0.7416666666666667,
+    "cost": 0.0019103290833333332
+   },
+   "mu*": {
+    "accuracy": 0.7645833333333333,
+    "cost": 0.001979248791666667
+   },
+   "maximal": {
+    "accuracy": 0.7958333333333333,
+    "cost": 0.0022357858541666663
+   },
+   "weighted vote + program": {
+    "accuracy": 0.75,
+    "cost": 0.0015599298958333333
+   }
+  },
+  "unit_costs": {
+   "nl_sample": 0.00045426293750000003,
+   "program": 0.00019714108333333336
+  },
+  "weights": {
+   "nl": 0.36448413420120124,
+   "program": 0.7894142209394284
+  },
+  "n_items": 60,
+  "n_seeds": 8
+ },
+ "action_cases": {
+  "e1 / rescue": {
+   "judge verdict": 4,
+   "corroborated an earlier answer": 9,
+   "new answer introduced and adopted": 1
+  },
+  "e1 / harm": {
+   "corroborated an earlier answer": 12,
+   "judge verdict": 2,
+   "new answer introduced and adopted": 1
+  },
+  "e2 / harm": {
+   "judge verdict": 4,
+   "new answer introduced and adopted": 9,
+   "review / rebuttal": 1,
+   "corroborated an earlier answer": 2
+  },
+  "e2 / rescue": {
+   "corroborated an earlier answer": 14,
+   "judge verdict": 13,
+   "new answer introduced and adopted": 13,
+   "re-weighting after a dissenting candidate": 1,
+   "review / rebuttal": 1
+  }
+ }
+}

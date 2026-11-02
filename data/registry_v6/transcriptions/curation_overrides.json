@@ -1,0 +1,11 @@
+{
+  "cmimc_2026/team_05": "curator: the official answer line (|z| = 12 sqrt(5)/5) does not answer the question as stated ('Find z')",
+  "cmimc_2026/team_09": "curator: the stated minimum is never attained (the official value is an infimum reached only in a degenerate limit)",
+  "cmimc_2026/geo_07": "curator: under-specified as stated (the official solution assumes AX = AB = AY, which the problem does not state)",
+  "cmimc_2026/combo_08": "curator: the official answer is a binomial closed form of a 7,574-digit integer; equivalence cannot be graded reliably",
+  "brumo_2026/guts_03": "curator: the official answer box (2) contradicts the solution's own boxed value (120 minutes)",
+  "brumo_2026/ind_13": "curator: under-specified as stated (the distribution of the random cuts is never given; the official solution assumes one)",
+  "hmmt_feb_2026_team/02": "curator: already evaluated as hmmt_feb_2026/31 (MathArena's HMMT February 2026 set includes this Team problem)",
+  "hmmt_feb_2026_team/03": "curator: already evaluated as hmmt_feb_2026/32 (MathArena's HMMT February 2026 set includes this Team problem)",
+  "hmmt_feb_2026_team/05": "curator: already evaluated as hmmt_feb_2026/33 (MathArena's HMMT February 2026 set includes this Team problem)"
+}

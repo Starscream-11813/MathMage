@@ -1,0 +1,104 @@
+{
+  "purpose": "v6 follow-up: fresh post-cutoff contests transcribed from official PDFs; frozen registries unchanged",
+  "items": 187,
+  "cells": [
+    "brumo_2026",
+    "cmimc_2026",
+    "hmmt_feb_2026_guts",
+    "hmmt_nov_2025_guts",
+    "pumac_2025"
+  ],
+  "per_contest": {
+    "hmmt_nov_2025_guts": {
+      "total": 36,
+      "kept": 33,
+      "excluded": {
+        "estimation problem (scored by closeness to the true value)": 1,
+        "estimation problem (scored by closeness); official answer is": 1,
+        "answer is a 9-tuple (multi-part answer with partial-credit s": 1
+      }
+    },
+    "hmmt_feb_2026_guts": {
+      "total": 36,
+      "kept": 32,
+      "excluded": {
+        "refers to answers of other problems (Guts sets 1-6); estimat": 1,
+        "estimation problem (scored by closeness to an approximate va": 3
+      }
+    },
+    "hmmt_feb_2026_team": {
+      "total": 10,
+      "kept": 0,
+      "excluded": {
+        "proof problem (no final answer)": 5,
+        "curator": 3,
+        "answer is a set (characterization of all such rationals)": 1,
+        "answer is an interval of values": 1
+      }
+    },
+    "pumac_2025": {
+      "total": 47,
+      "kept": 42,
+      "excluded": {
+        "figure-dependent": 2,
+        "official answer appears incorrect": 2,
+        "official answer appears incorrect (exhaustive search finds 4": 1
+      }
+    },
+    "cmimc_2026": {
+      "total": 38,
+      "kept": 28,
+      "excluded": {
+        "estimation tiebreaker": 4,
+        "figure-dependent": 2,
+        "curator": 4
+      }
+    },
+    "brumo_2026": {
+      "total": 61,
+      "kept": 52,
+      "excluded": {
+        "curator": 2,
+        "official answer key appears wrong": 1,
+        "estimation problem": 3,
+        "answer is a tuple (10 true/false letters)": 1,
+        "estimation problem; figure-dependent (shape ABCD shown only ": 1,
+        "answer is a set (list of 10 integers)": 1
+      }
+    }
+  },
+  "near_duplicate_threshold": 0.85,
+  "near_duplicates": [],
+  "excluded_as_training_or_dev_duplicates": {},
+  "items_sha256": "c2566ddae535bac1459135a6ed29fc743baa4e3b95ec4d06b50d811fe0740160",
+  "answers_sha256": "32a1741601b40dec932362d37995b9b22519380827428ef2ec95ebbcf6f8c7da",
+  "transcriptions_sha256": {
+    "hmmt_nov_2025_guts": "ee07a51cba16a79a9a0d7ff59b3d7252345291566d120bb992a9aec4aebea4dd",
+    "hmmt_feb_2026_guts": "9b4186c1fccbb746e7c964fcb2fd3839fdf48c14f891498c4fa5c511cbfa185e",
+    "hmmt_feb_2026_team": "b04a474d33d59cbf7b69fc5dbd4c2fb3c6084c0adb80f03b3fe3a1197451d19c",
+    "pumac_2025": "86cb2f7959c066bb53ffa70e28dc8be71558a189f176d4af836e6ef761183b85",
+    "cmimc_2026": "59522766f3d17805bcda13ee85b65cd7321328cb57a8799b33df4c83ce726485",
+    "brumo_2026": "588cdb280f6b10b5fa842355b00ef3a1faa1f332294e8cdd8345d56ca283c5ae"
+  },
+  "curation_overrides": {
+    "cmimc_2026/team_05": "curator: the official answer line (|z| = 12 sqrt(5)/5) does not answer the question as stated ('Find z')",
+    "cmimc_2026/team_09": "curator: the stated minimum is never attained (the official value is an infimum reached only in a degenerate limit)",
+    "cmimc_2026/geo_07": "curator: under-specified as stated (the official solution assumes AX = AB = AY, which the problem does not state)",
+    "cmimc_2026/combo_08": "curator: the official answer is a binomial closed form of a 7,574-digit integer; equivalence cannot be graded reliably",
+    "brumo_2026/guts_03": "curator: the official answer box (2) contradicts the solution's own boxed value (120 minutes)",
+    "brumo_2026/ind_13": "curator: under-specified as stated (the distribution of the random cuts is never given; the official solution assumes one)",
+    "hmmt_feb_2026_team/02": "curator: already evaluated as hmmt_feb_2026/31 (MathArena's HMMT February 2026 set includes this Team problem)",
+    "hmmt_feb_2026_team/03": "curator: already evaluated as hmmt_feb_2026/32 (MathArena's HMMT February 2026 set includes this Team problem)",
+    "hmmt_feb_2026_team/05": "curator: already evaluated as hmmt_feb_2026/33 (MathArena's HMMT February 2026 set includes this Team problem)"
+  },
+  "partial_testing_registry": false,
+  "base_registry_sha256": "cbd58f857808817667283722c3d5fcfc456f3efdcef3eeb914bf549d186921a2",
+  "ext_registry_sha256": "2399d4c95d035253b0854ebac44e599438ad099e6a0f6eeb876cf2e3093b30e6",
+  "training_cutoffs": {
+    "o3-mini-low": "2023-10",
+    "deepseek-v3": "2024-07",
+    "haiku-4.5": "2025-07 (training data)",
+    "gpt-oss-120b-low": "2024-06"
+  },
+  "strict_post_cutoff": "every v6 item postdates every member of both rosters (latest cutoff 2025-07)"
+}

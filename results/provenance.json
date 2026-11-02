@@ -1,0 +1,331 @@
+{
+ "about": "SHA-256 bindings that the study's frozen plans and manifests recorded before their model calls (runs/live_20261018/, not distributed), restricted to those this release reproduces. Verify with: python scripts/verify_provenance.py",
+ "packages": [
+  {
+   "package": "lanes/open_weight/mathmage",
+   "sha256": "f8f57cfedc2225010b593d8b15e49417b7e335b4be310ea43160d4c776ba100a",
+   "recorded_as": [
+    "protocol_sha256"
+   ],
+   "records": 6,
+   "example_records": [
+    "program_open/e2/manifest.json",
+    "program_open/offline_open/manifest.json",
+    "program_open/program_plan.json"
+   ]
+  },
+  {
+   "package": "lanes/sat26/mathmage",
+   "sha256": "8561981259ceb84de479621345417f81ee897a1257306ecd1c7de33ec11e7b63",
+   "recorded_as": [
+    "protocol_sha256"
+   ],
+   "records": 2,
+   "example_records": [
+    "program_v6/offline_sat26/manifest.json",
+    "program_v6/plan_sat26.json"
+   ]
+  },
+  {
+   "package": "mathmage",
+   "sha256": "6b7b98a79791751217095843c0292f3756fc28dad2a990ab9e12eb1e5272725e",
+   "recorded_as": [
+    "protocol_sha256"
+   ],
+   "records": 11,
+   "example_records": [
+    "program_v3/ablations_primary/manifest.json",
+    "program_v3/ablations_secondary/manifest.json",
+    "program_v3/e1_primary/manifest.json"
+   ]
+  }
+ ],
+ "files": [
+  {
+   "path": "configs/models.yaml",
+   "sha256": "fbe3458f2a52c9e131bde107f16c40606f8659e279e7f0624fd7abf0472771c0",
+   "recorded_as": [
+    "models_sha256"
+   ],
+   "records": 17,
+   "example_records": [
+    "pilot_sat/manifest.json",
+    "pilot_xolver/manifest.json",
+    "program/offline_sat/manifest.json"
+   ]
+  },
+  {
+   "path": "data/registry/answers.parquet",
+   "sha256": "7304123e39a7194ca74d5ea9a75c7491474d2dca181bc98a4960cc87bcdca36a",
+   "recorded_as": [
+    "answer_vault_sha256",
+    "vault_sha256"
+   ],
+   "records": 18,
+   "example_records": [
+    "pilot_sat/manifest.json",
+    "pilot_xolver/manifest.json",
+    "program/offline_sat/manifest.json"
+   ]
+  },
+  {
+   "path": "data/registry/items.parquet",
+   "sha256": "cbd58f857808817667283722c3d5fcfc456f3efdcef3eeb914bf549d186921a2",
+   "recorded_as": [
+    "registry_sha256"
+   ],
+   "records": 18,
+   "example_records": [
+    "pilot_sat/manifest.json",
+    "pilot_xolver/manifest.json",
+    "program/offline_sat/manifest.json"
+   ]
+  },
+  {
+   "path": "data/registry_ext/answers.parquet",
+   "sha256": "0ea907d3cf44592c2fc46bb9764f0e14bc6c76c5270760bb724761478e143f08",
+   "recorded_as": [
+    "ext_answers_sha256"
+   ],
+   "records": 4,
+   "example_records": [
+    "program_v4/plan.json",
+    "program_v5/plan.json",
+    "program_v6/plan.json"
+   ]
+  },
+  {
+   "path": "data/registry_ext/items.parquet",
+   "sha256": "2399d4c95d035253b0854ebac44e599438ad099e6a0f6eeb876cf2e3093b30e6",
+   "recorded_as": [
+    "ext_items_sha256"
+   ],
+   "records": 4,
+   "example_records": [
+    "program_v4/plan.json",
+    "program_v5/plan.json",
+    "program_v6/plan.json"
+   ]
+  },
+  {
+   "path": "data/registry_v6/answers.parquet",
+   "sha256": "32a1741601b40dec932362d37995b9b22519380827428ef2ec95ebbcf6f8c7da",
+   "recorded_as": [
+    "v6_answers_sha256"
+   ],
+   "records": 2,
+   "example_records": [
+    "program_v6/plan.json",
+    "program_v6/plan_sat26.json"
+   ]
+  },
+  {
+   "path": "data/registry_v6/items.parquet",
+   "sha256": "c2566ddae535bac1459135a6ed29fc743baa4e3b95ec4d06b50d811fe0740160",
+   "recorded_as": [
+    "v6_items_sha256"
+   ],
+   "records": 2,
+   "example_records": [
+    "program_v6/plan.json",
+    "program_v6/plan_sat26.json"
+   ]
+  },
+  {
+   "path": "data/registry_v6/manifest.json",
+   "sha256": "971c958fc1c558d30dffeca0db6093a27d7bf5273800be222ef2523c8c1908f7",
+   "recorded_as": [
+    "v6_manifest_sha256"
+   ],
+   "records": 2,
+   "example_records": [
+    "program_v6/plan.json",
+    "program_v6/plan_sat26.json"
+   ]
+  },
+  {
+   "path": "lanes/open_weight/PROTOCOL.md",
+   "sha256": "c1ea60d0a3ce8592c7f2badbc510c608b2185a3bf7b243e2117e1131ae0c6f57",
+   "recorded_as": [
+    "protocol_record_sha256"
+   ],
+   "records": 1,
+   "example_records": [
+    "program_open/program_plan.json"
+   ]
+  },
+  {
+   "path": "lanes/open_weight/configs/models.yaml",
+   "sha256": "4b4526041494af0f4828601805f90711c9e43d10a768613d4c2a4d0d6dd6f77e",
+   "recorded_as": [
+    "models_sha256"
+   ],
+   "records": 6,
+   "example_records": [
+    "program_open/e2/manifest.json",
+    "program_open/offline_open/manifest.json",
+    "program_open/program_plan.json"
+   ]
+  },
+  {
+   "path": "lanes/open_weight/pilot_effort.json",
+   "sha256": "0118fef43fa9d0e864e29ba97abb3c062e1c78bb81edc4e2540602b307341d59",
+   "recorded_as": [
+    "sha256"
+   ],
+   "records": 1,
+   "example_records": [
+    "program_open/program_plan.json"
+   ]
+  },
+  {
+   "path": "lanes/open_weight/run_lane.py",
+   "sha256": "88a0efc8574725e9ea82c9fe73517f19da47a035bc50a1db4efa0e7f00b25f75",
+   "recorded_as": [
+    "driver_sha256"
+   ],
+   "records": 1,
+   "example_records": [
+    "program_open/program_plan.json"
+   ]
+  },
+  {
+   "path": "lanes/sat26/configs/models.yaml",
+   "sha256": "98aff803a06990ab565a91564c1362ec53c6e6ab649beffcf9f7541f2e946d14",
+   "recorded_as": [
+    "models_sha256"
+   ],
+   "records": 2,
+   "example_records": [
+    "program_v6/offline_sat26/manifest.json",
+    "program_v6/plan_sat26.json"
+   ]
+  },
+  {
+   "path": "scripts/provider_diagnostics.py",
+   "sha256": "82162335f1c2798191c9508db4588b6e9edfd8d23f2ebe2800d77740696983c6",
+   "recorded_as": [
+    "provider_diagnostics.py"
+   ],
+   "records": 1,
+   "example_records": [
+    "program_v3/program_plan.json"
+   ]
+  },
+  {
+   "path": "scripts/provider_retry.py",
+   "sha256": "963b6f2a4594e68cba2c5f15c59e2893aab6654a65fddcc2f02b19e57923b3db",
+   "recorded_as": [
+    "provider_retry.py"
+   ],
+   "records": 1,
+   "example_records": [
+    "program_v3/program_plan.json"
+   ]
+  },
+  {
+   "path": "scripts/run_paid_program.py",
+   "sha256": "de9dae13a5aea5f6858627c2508c6e2d32a77e6f250e547d1d47bfaa6d12dd8e",
+   "recorded_as": [
+    "driver_sha256"
+   ],
+   "records": 1,
+   "example_records": [
+    "program_v3/program_plan.json"
+   ]
+  },
+  {
+   "path": "scripts/v4_followup.py",
+   "sha256": "e3fd273e3615d0ab9e2faa8fbbaddc0907206cc68632e5624639402b372d2f8b",
+   "recorded_as": [
+    "runner_sha256",
+    "v4_runner_sha256"
+   ],
+   "records": 4,
+   "example_records": [
+    "program_v4/plan.json",
+    "program_v5/plan.json",
+    "program_v6/plan.json"
+   ]
+  },
+  {
+   "path": "scripts/v5_followup.py",
+   "sha256": "53657526c532b499ba8ed395fc4a9489f2d49f6d9a3fba54b1159dacb3b9b189",
+   "recorded_as": [
+    "runner_sha256",
+    "v5_runner_sha256"
+   ],
+   "records": 3,
+   "example_records": [
+    "program_v5/plan.json",
+    "program_v6/plan.json",
+    "program_v6/plan_sat26.json"
+   ]
+  },
+  {
+   "path": "scripts/v6_fit.py",
+   "sha256": "5c77dbe5b7f96063e0c9ba029217e470e5bd90de4f0ae9b81e79563d215644e9",
+   "recorded_as": [
+    "fit_sha256"
+   ],
+   "records": 2,
+   "example_records": [
+    "program_v6/plan.json",
+    "program_v6/plan_sat26.json"
+   ]
+  },
+  {
+   "path": "scripts/v6_followup.py",
+   "sha256": "4ca3d3d2c213163bfe22a8353222baac9097ec28ef214ef2a2778d207d71a1c0",
+   "recorded_as": [
+    "runner_sha256",
+    "v6_runner_sha256"
+   ],
+   "records": 3,
+   "example_records": [
+    "program_v6/plan.json",
+    "program_v6/plan_sat26.json",
+    "program_v7/plan_v7.json"
+   ]
+  },
+  {
+   "path": "scripts/v6_grading_child.py",
+   "sha256": "7ba05115a2ce373743b84e05903f3a6756819890451f3e7cabf6ab46b8a0bea3",
+   "recorded_as": [
+    "grading_child_sha256"
+   ],
+   "records": 1,
+   "example_records": [
+    "program_v7/plan_v7.json"
+   ]
+  },
+  {
+   "path": "scripts/v6_worker_guarded.py",
+   "sha256": "67724b166f9abd4ecaed646fb1b1b19975a7a4b1b2c71c0e96ce4c2346225307",
+   "recorded_as": [
+    "guard_sha256"
+   ],
+   "records": 1,
+   "example_records": [
+    "program_v7/plan_v7.json"
+   ]
+  },
+  {
+   "path": "scripts/v7_parity.py",
+   "sha256": "f568b0de0b37da77dbd094ea63a943df456da02c5f11e89339fd3746f5413890",
+   "recorded_as": [
+    "driver_sha256"
+   ],
+   "records": 1,
+   "example_records": [
+    "program_v7/plan_v7.json"
+   ]
+  }
+ ],
+ "not_reproduced": [
+  "protocol_sha256 of the two pilot runs and of the first paid program (program/), which ran code that predates the frozen v3 package",
+  "driver_sha256 and provider-helper hashes of the first paid program and of its two recovery waves (program/recovery_*, program_v3/recovery_*), whose launchers were edited after those runs; the package those recovery waves ran is the frozen v3 package above",
+  "budget_sha256 of every wave: configs/budget.yaml gained spending lines between waves",
+  "calibration-artifact, plan, unit and record digests that refer to files inside the run directories"
+ ]
+}

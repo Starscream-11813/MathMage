@@ -1,0 +1,114 @@
+{
+ "sat26": {
+  "n_units": 187,
+  "patterns": {
+   "2-1 split": {
+    "units": 51,
+    "share": 0.2727272727272727,
+    "member_acc": 0.45751633986928103,
+    "by_member": {
+     "deepseek-v3": {
+      "acc": 0.5098039215686274,
+      "n": 51
+     },
+     "gpt-5-mini-low": {
+      "acc": 0.6470588235294118,
+      "n": 51
+     },
+     "haiku-4.5": {
+      "acc": 0.21568627450980393,
+      "n": 51
+     }
+    },
+    "program_acc": 0.5,
+    "program_answered": 32
+   },
+   "all differ": {
+    "units": 72,
+    "share": 0.3850267379679144,
+    "member_acc": 0.16203703703703703,
+    "by_member": {
+     "deepseek-v3": {
+      "acc": 0.05555555555555555,
+      "n": 72
+     },
+     "gpt-5-mini-low": {
+      "acc": 0.4305555555555556,
+      "n": 72
+     },
+     "haiku-4.5": {
+      "acc": 0.0,
+      "n": 72
+     }
+    },
+    "program_acc": 0.5,
+    "program_answered": 38
+   },
+   "unanimous": {
+    "units": 64,
+    "share": 0.3422459893048128,
+    "member_acc": 0.9375,
+    "by_member": {
+     "deepseek-v3": {
+      "acc": 0.9375,
+      "n": 64
+     },
+     "gpt-5-mini-low": {
+      "acc": 0.9375,
+      "n": 64
+     },
+     "haiku-4.5": {
+      "acc": 0.9375,
+      "n": 64
+     }
+    },
+    "program_acc": 0.8260869565217391,
+    "program_answered": 46
+   }
+  }
+ },
+ "lane": {
+  "n_units": 1496,
+  "patterns": {
+   "unanimous": {
+    "units": 722,
+    "share": 0.48262032085561496,
+    "member_acc": 0.9044321329639889,
+    "by_member": {
+     "gpt-oss-120b-low": {
+      "acc": 0.9044321329639889,
+      "n": 2166
+     }
+    },
+    "program_acc": 0.8725868725868726,
+    "program_answered": 518
+   },
+   "all differ": {
+    "units": 389,
+    "share": 0.2600267379679144,
+    "member_acc": 0.11139674378748929,
+    "by_member": {
+     "gpt-oss-120b-low": {
+      "acc": 0.11139674378748929,
+      "n": 1167
+     }
+    },
+    "program_acc": 0.7174887892376681,
+    "program_answered": 223
+   },
+   "2-1 split": {
+    "units": 385,
+    "share": 0.25735294117647056,
+    "member_acc": 0.41904761904761906,
+    "by_member": {
+     "gpt-oss-120b-low": {
+      "acc": 0.41904761904761906,
+      "n": 1155
+     }
+    },
+    "program_acc": 0.7792792792792793,
+    "program_answered": 222
+   }
+  }
+ }
+}

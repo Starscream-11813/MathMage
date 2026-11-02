@@ -1,0 +1,321 @@
+{
+ "vignettes": [
+  {
+   "item_id": "aime_2025/15",
+   "seed": 0,
+   "benchmark": "aime_2025",
+   "problem": "Let $N$ denote the numbers of ordered triples of positive integers $(a, b, c)$ such that $a, b, c \\le 3^6$ and $a^3 + b^3 + c^3$ is a multiple of $3^7$. Find the remainder when $N$ is divided by $1000$.",
+   "gold": null,
+   "stage0": [
+    {
+     "who": "o3-mini (low)",
+     "answer": "216",
+     "correct": false
+    },
+    {
+     "who": "Claude Haiku 4.5",
+     "answer": "49",
+     "correct": false
+    },
+    {
+     "who": "DeepSeek-V3",
+     "answer": "147",
+     "correct": false
+    },
+    {
+     "who": "program",
+     "answer": "735",
+     "correct": true
+    }
+   ],
+   "final_correct": true,
+   "steps": [
+    {
+     "cost_usd": 0.021137965300000002,
+     "confidence": 0.13601187618401508
+    },
+    {
+     "cost_usd": 0.0354609653,
+     "confidence": 0.31762202939147793
+    },
+    {
+     "cost_usd": 0.046100965300000005,
+     "confidence": 0.2842906617126383
+    },
+    {
+     "cost_usd": 0.051239065300000004,
+     "confidence": 0.25661991348664637
+    }
+   ]
+  },
+  {
+   "item_id": "aime_2026/02",
+   "seed": 0,
+   "benchmark": "aime_2026",
+   "problem": "Find the number of positive integer palindromes written in base $10$ with no zero digits, and whose digits add up to $13$. For example, $42124$ has these properties. Recall that a palindrome is a number whose representation reads the same from left to right as from right to left.",
+   "gold": null,
+   "stage0": [
+    {
+     "who": "o3-mini (low)",
+     "answer": "62",
+     "correct": true
+    },
+    {
+     "who": "Claude Haiku 4.5",
+     "answer": "100",
+     "correct": false
+    },
+    {
+     "who": "DeepSeek-V3",
+     "answer": "40",
+     "correct": false
+    },
+    {
+     "who": "program",
+     "answer": "40",
+     "correct": false
+    }
+   ],
+   "final_correct": false,
+   "steps": [
+    {
+     "cost_usd": 0.0271289981,
+     "confidence": 0.5783669396953947
+    },
+    {
+     "cost_usd": 0.0437455349,
+     "confidence": 0.812273743827223
+    },
+    {
+     "cost_usd": 0.04409873,
+     "confidence": 0.812273743827223
+    },
+    {
+     "cost_usd": 0.05285732680000001,
+     "confidence": 0.6067495659773271
+    }
+   ]
+  },
+  {
+   "item_id": "aime_2025/12",
+   "seed": 0,
+   "benchmark": "aime_2025",
+   "problem": "The set of points in $3$-dimensional coordinate space that lie in the plane $x+y+z=75$ whose coordinates satisfy the inequalities\n$$x-yz<y-zx<z-xy$$\nforms three disjoint convex regions. Exactly one of those regions has finite area. The area of this finite region can be expressed in the form $a\\sqrt{b},$ where $a$ and $b$ are positive integers and $b$ is not divisible by the square of any prime. Find $a+b.$",
+   "gold": null,
+   "stage0": [
+    {
+     "who": "o3-mini (low)",
+     "answer": "19",
+     "correct": false
+    },
+    {
+     "who": "Claude Haiku 4.5",
+     "answer": "510",
+     "correct": true
+    },
+    {
+     "who": "DeepSeek-V3",
+     "answer": "16",
+     "correct": false
+    },
+    {
+     "who": "program",
+     "answer": null,
+     "correct": false
+    }
+   ],
+   "final_correct": false,
+   "steps": [
+    {
+     "cost_usd": 0.020355352400000002,
+     "confidence": 0.2031163703582161
+    },
+    {
+     "cost_usd": 0.0247634345,
+     "confidence": 0.2031163703582162
+    },
+    {
+     "cost_usd": 0.0296848379,
+     "confidence": 0.3544320440756327
+    },
+    {
+     "cost_usd": 0.0428868379,
+     "confidence": 0.6575551530626444
+    }
+   ]
+  },
+  {
+   "item_id": "aime_2024/08",
+   "seed": 0,
+   "benchmark": "aime_2024",
+   "problem": "Eight circles of radius $34$ can be placed tangent to $\\overline{BC}$ of $\\triangle ABC$ so that the circles are sequentially tangent to each other, with the first circle being tangent to $\\overline{AB}$ and the last circle being tangent to $\\overline{AC}$, as shown. Similarly, $2024$ circles of radius $1$ can be placed tangent to $\\overline{BC}$ in the same manner. The inradius of $\\triangle ABC$ can be expressed as $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\n\n<asy>\npair A = (2,1); pair B = (0,0); pair C = (3,0);\ndot(A^^B^^C);\nlabel(\"$A$\", A, N); label(\"$B$\", B, S); label(\"$C$\", C, S);\ndraw(A--B--C--cycle);\nfor(real i=0.62; i<2.7; i+=0.29){\ndraw(circle((i,0.145), 0.145));\n}\n</asy>",
+   "gold": null,
+   "stage0": [
+    {
+     "who": "o3-mini (low)",
+     "answer": null,
+     "correct": false
+    },
+    {
+     "who": "Claude Haiku 4.5",
+     "answer": "595",
+     "correct": false
+    },
+    {
+     "who": "DeepSeek-V3",
+     "answer": "197",
+     "correct": true
+    },
+    {
+     "who": "program",
+     "answer": "1",
+     "correct": false
+    }
+   ],
+   "final_correct": true,
+   "steps": [
+    {
+     "cost_usd": 0.0250979889,
+     "confidence": 0.1644464555778139
+    },
+    {
+     "cost_usd": 0.030884304,
+     "confidence": 0.15447390376835116
+    },
+    {
+     "cost_usd": 0.048101304,
+     "confidence": 0.193429676148609
+    },
+    {
+     "cost_usd": 0.053431905,
+     "confidence": 0.19342967614860895
+    }
+   ]
+  }
+ ],
+ "weighing_examples": [
+  {
+   "item_id": "aime_2024/13",
+   "seed": 0,
+   "benchmark": "aime_2024",
+   "problem": "Let $p$ be the least prime number for which there exists a positive integer $n$ such that $n^{4}+1$ is divisible by $p^{2}$. Find the least positive integer $m$ such that $m^{4}+1$ is divisible by $p^{2}$.",
+   "gold": null,
+   "stage0": [
+    {
+     "who": "o3-mini (low)",
+     "answer": "155",
+     "correct": false
+    },
+    {
+     "who": "Claude Haiku 4.5",
+     "answer": "155",
+     "correct": false
+    },
+    {
+     "who": "DeepSeek-V3",
+     "answer": "134",
+     "correct": false
+    },
+    {
+     "who": "program",
+     "answer": "110",
+     "correct": true
+    }
+   ],
+   "final_correct": false,
+   "steps": [
+    {
+     "cost_usd": 0.0377121282,
+     "confidence": 0.8749573330146079
+    }
+   ],
+   "vote_answer": "155"
+  },
+  {
+   "item_id": "aime_2026/24",
+   "seed": 0,
+   "benchmark": "aime_2026",
+   "problem": "Let $S$ denote the value of the infinite sum\n\\[\n\\frac{1}{9} + \\frac{1}{99} + \\frac{1}{999} + \\frac{1}{9999}  + \\cdots\n\\]\nFind the remainder when the greatest integer less than or equal to $10^{100} S$ is divided by $1000.$",
+   "gold": null,
+   "stage0": [
+    {
+     "who": "o3-mini (low)",
+     "answer": "669",
+     "correct": true
+    },
+    {
+     "who": "Claude Haiku 4.5",
+     "answer": "111",
+     "correct": false
+    },
+    {
+     "who": "DeepSeek-V3",
+     "answer": "111",
+     "correct": false
+    },
+    {
+     "who": "program",
+     "answer": "669",
+     "correct": true
+    }
+   ],
+   "final_correct": true,
+   "steps": [
+    {
+     "cost_usd": 0.0248851551,
+     "confidence": 0.9433265944241018
+    }
+   ],
+   "vote_answer": "111"
+  },
+  {
+   "item_id": "hmmt_feb_2026/02",
+   "seed": 0,
+   "benchmark": "hmmt_feb_2026",
+   "problem": "Compute the second smallest positive integer \\( n \\) such that\n\n- \\( n \\) is divisible by 101, and\n- the decimal representation of \\( n \\) contains the number 2026 as a consecutive sequence of digits.",
+   "gold": null,
+   "stage0": [
+    {
+     "who": "o3-mini (low)",
+     "answer": "952026",
+     "correct": false
+    },
+    {
+     "who": "Claude Haiku 4.5",
+     "answer": "952026",
+     "correct": false
+    },
+    {
+     "who": "DeepSeek-V3",
+     "answer": "2025656",
+     "correct": false
+    },
+    {
+     "who": "program",
+     "answer": "420261",
+     "correct": true
+    }
+   ],
+   "final_correct": false,
+   "steps": [
+    {
+     "cost_usd": 0.0352581734,
+     "confidence": 0.512838909047473
+    },
+    {
+     "cost_usd": 0.0357473594,
+     "confidence": 0.3401652258351525
+    },
+    {
+     "cost_usd": 0.0398568521,
+     "confidence": 0.7887288750016479
+    },
+    {
+     "cost_usd": 0.0481918521,
+     "confidence": 0.924654974047989
+    }
+   ],
+   "vote_answer": "952026"
+  }
+ ]
+}

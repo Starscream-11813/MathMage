@@ -1,0 +1,171 @@
+# Frozen model roster for MathMage v2.
+# Frozen on 2026-10-18 from the public OpenRouter endpoints
+#   GET https://openrouter.ai/api/v1/models
+#   GET https://openrouter.ai/api/v1/models/{slug}/endpoints
+# Prices are US dollars per million tokens at that date. Providers are pinned and
+# fallbacks are disabled, so every call is served by the provider listed here.
+frozen_at: "2026-10-18"   # sat26 lane copy edited 2026-10-24 (GPT-5-mini, StreamLake-only DeepSeek, roster sat26)
+
+models:
+  # ---------------- SAT-comparison roster (decided with the user, 2026-10-18) ----------------
+  o3-mini-low:
+    slug: openai/o3-mini
+    canonical_slug: openai/o3-mini-2025-01-31
+    provider: OpenAI
+    lineage: openai
+    role_notes: "Low effort selected in the handoff protocol. Similarity of reported aggregate scores does not establish equivalence to SAT's original reasoning settings."
+    reasoning: {effort: low}
+    temperature: null        # not accepted by OpenAI reasoning models
+    top_p: null
+    max_tokens: 25000        # includes hidden reasoning tokens; truncation counts as failure
+    expected_out_tokens: {olympiad: 2700, physics: 1500, math500: 1200, short: 400}
+    price: {in: 1.10, out: 4.40, cache_read: 0.55}
+    batch: {slug: "openai/o3-mini:batch", price: {in: 0.55, out: 2.20}}
+    knowledge_cutoff: "2023-10-31"
+    supports_seed: true
+
+  # ---------------- SAT-style 2026 roster (user decision 2026-10-24: OpenAI retired o3-mini) ----------------
+  gpt-5-mini-low:
+    slug: openai/gpt-5-mini
+    canonical_slug: openai/gpt-5-mini-2025-08-07
+    provider: OpenAI
+    provider_fallback_candidates: []
+    lineage: openai
+    role_notes: "Replaces o3-mini (deprecated by OpenAI; HTTP 404 model_not_found on 2026-10-24). Low reasoning effort, as o3-mini was run."
+    reasoning: {effort: low}
+    temperature: null        # not accepted by OpenAI reasoning models
+    top_p: null
+    max_tokens: 25000        # includes hidden reasoning tokens; truncation counts as failure
+    expected_out_tokens: {olympiad: 2700, physics: 1500, math500: 1200, short: 400}
+    price: {in: 0.25, out: 2.00, cache_read: 0.025}
+    batch: null
+    knowledge_cutoff: "2024-05-31"
+    supports_seed: true
+
+  haiku-4.5:
+    slug: anthropic/claude-haiku-4.5
+    canonical_slug: anthropic/claude-4.5-haiku-20251001
+    provider: Anthropic
+    lineage: anthropic
+    role_notes: "Substitute for retired Claude Sonnet 4 (user decision: cheaper Claude). No extended thinking."
+    reasoning: null
+    temperature: 0.7
+    top_p: null
+    max_tokens: 8000
+    expected_out_tokens: {olympiad: 2500, physics: 900, math500: 700, short: 400}
+    price: {in: 1.00, out: 5.00, cache_read: 0.10}
+    batch: {slug: "anthropic/claude-haiku-4.5:batch", price: {in: 0.50, out: 2.50}}
+    knowledge_cutoff: null   # not listed by OpenRouter; treat AIME 2025 as possibly seen
+    supports_seed: false
+
+  deepseek-v3:
+    slug: deepseek/deepseek-chat
+    canonical_slug: deepseek/deepseek-chat-v3
+    provider: StreamLake     # pinned without fallback, as in the published SAT-style team
+    provider_fallback_candidates: []
+    lineage: deepseek
+    role_notes: "SAT's DeepSeek-V3 member (original V3, Dec 2024 weights)."
+    reasoning: null
+    temperature: 0.6
+    top_p: null
+    max_tokens: 12000        # StreamLake serves at most 16000 output tokens
+    expected_out_tokens: {olympiad: 2500, physics: 900, math500: 700, short: 500, code: 900}
+    price: {in: 0.2574, out: 1.0287}
+    batch: null
+    knowledge_cutoff: "2024-07-31"
+    supports_seed: false
+
+  # ---------------- Xolver-comparison backbone (QwQ-32B is retired) ----------------
+  qwen3-32b:
+    slug: qwen/qwen3-32b
+    canonical_slug: qwen/qwen3-32b-04-28
+    provider: SiliconFlow    # only provider with >16k output tokens (117,964)
+    lineage: qwen
+    role_notes: "Same-lab, same-size substitute for unavailable QwQ-32B; thinking mode on. Different weights require a matched rerun before a head-to-head claim."
+    reasoning: {enabled: true}
+    temperature: 0.6         # Qwen3 model-card recommendation for thinking mode
+    top_p: 0.95
+    max_tokens: 32000
+    expected_out_tokens: {olympiad: 14000, math500: 4000, short: 1500, code: 2500}
+    price: {in: 0.14, out: 0.57}
+    batch: null
+    knowledge_cutoff: "2025-03-31"
+    supports_seed: false
+
+  qwen3-32b-nothink:
+    slug: qwen/qwen3-32b
+    canonical_slug: qwen/qwen3-32b-04-28
+    provider: SiliconFlow
+    lineage: qwen
+    role_notes: "Same weights, thinking disabled; used for short auxiliary roles (code checker, cards)."
+    reasoning: {enabled: false}
+    temperature: 0.7
+    top_p: 0.8
+    max_tokens: 6000
+    expected_out_tokens: {short: 600, code: 1200}
+    price: {in: 0.14, out: 0.57}
+    batch: null
+    knowledge_cutoff: "2025-03-31"
+    supports_seed: false
+
+  # ---------------- Open-weight lane (decided with the user, 2026-10-19) ----------------
+  # Replaces the Qwen3-32B roster after sustained upstream SiliconFlow rate limits; the other
+  # Qwen3-32B hosts cap output near 16k tokens, which truncated about a third of its answers.
+  # gpt-oss-120b weights are natively MXFP4; every listed host serves fp4 and supports every
+  # sent parameter (reasoning, temperature, top_p, max_tokens, seed, response_format).
+  # Reasoning effort is chosen by the training-only pilot rule in lanes/open_weight/PROTOCOL.md.
+  gpt-oss-120b-low:
+    slug: openai/gpt-oss-120b
+    canonical_slug: openai/gpt-oss-120b
+    provider: CoreWeave
+    provider_fallback_candidates: [Near AI, Nebius]
+    lineage: gpt-oss
+    role_notes: "Open-weight (Apache-2.0) MoE reasoning model, low effort. Same weights on every listed host."
+    reasoning: {effort: low}
+    temperature: 1.0           # OpenAI's recommended gpt-oss sampling
+    top_p: 1.0
+    max_tokens: 40000          # includes reasoning; hosts allow 117,964
+    expected_out_tokens: {olympiad: 4000, physics: 2000, math500: 1500, short: 800, code: 1500}
+    price: {in: 0.03, out: 0.17}   # primary host listing on 2026-10-19
+    batch: null
+    knowledge_cutoff: "2024-06-01"
+    supports_seed: true
+
+  gpt-oss-120b-medium:
+    slug: openai/gpt-oss-120b
+    canonical_slug: openai/gpt-oss-120b
+    provider: CoreWeave
+    provider_fallback_candidates: [Near AI, Nebius]
+    lineage: gpt-oss
+    role_notes: "Open-weight (Apache-2.0) MoE reasoning model, medium effort. Same weights on every listed host."
+    reasoning: {effort: medium}
+    temperature: 1.0
+    top_p: 1.0
+    max_tokens: 40000
+    expected_out_tokens: {olympiad: 10000, physics: 4000, math500: 3000, short: 1500, code: 2500}
+    price: {in: 0.03, out: 0.17}
+    batch: null
+    knowledge_cutoff: "2024-06-01"
+    supports_seed: true
+
+rosters:
+  sat:
+    members: [o3-mini-low, haiku-4.5, deepseek-v3]
+    checker: deepseek-v3          # writes verification programs (cheapest, strong coder)
+    card_writer: deepseek-v3
+    default_judge: o3-mini-low    # SAT's judge; replaced by the most discerning member offline
+  xolver:
+    members: [qwen3-32b, qwen3-32b, qwen3-32b]   # homogeneous team, three instances
+    checker: qwen3-32b-nothink
+    card_writer: qwen3-32b-nothink
+    default_judge: qwen3-32b
+  sat26:
+    members: [gpt-5-mini-low, haiku-4.5, deepseek-v3]   # SAT-style roster with o3-mini's successor
+    checker: deepseek-v3
+    card_writer: deepseek-v3
+    default_judge: gpt-5-mini-low  # replaced by the most discerning member offline
+  open:
+    members: [gpt-oss-120b-low, gpt-oss-120b-low, gpt-oss-120b-low]   # homogeneous, three instances
+    checker: gpt-oss-120b-low
+    card_writer: gpt-oss-120b-low
+    default_judge: gpt-oss-120b-low
